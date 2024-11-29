@@ -1,0 +1,5529 @@
+{
+  "search_metadata": {
+    "id": "6744c1b3be324f98fd4a5ed2",
+    "status": "Success",
+    "json_endpoint": "https://serpapi.com/searches/4915dacfedae2025/6744c1b3be324f98fd4a5ed2.json",
+    "created_at": "2024-11-25 18:28:03 UTC",
+    "processed_at": "2024-11-25 18:28:03 UTC",
+    "google_finance_url": "https://www.google.com/finance/quote/NVDA:NASDAQ?hl=en",
+    "raw_html_file": "https://serpapi.com/searches/4915dacfedae2025/6744c1b3be324f98fd4a5ed2.html",
+    "total_time_taken": 0.51
+  },
+  "search_parameters": {
+    "engine": "google_finance",
+    "q": "NVDA:NASDAQ",
+    "hl": "en"
+  },
+  "markets": {
+    "us": [
+      {
+        "stock": ".DJI:INDEXDJX",
+        "link": "https://www.google.com/finance/quote/.DJI:INDEXDJX",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=.DJI%3AINDEXDJX",
+        "name": "Dow Jones",
+        "price": 44655.06,
+        "price_movement": {
+          "percentage": 0.80942464,
+          "value": 358.54688,
+          "movement": "Up"
+        }
+      },
+      {
+        "stock": ".INX:INDEXSP",
+        "link": "https://www.google.com/finance/quote/.INX:INDEXSP",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=.INX%3AINDEXSP",
+        "name": "S&P 500",
+        "price": 5984.24,
+        "price_movement": {
+          "percentage": 0.24961539,
+          "value": 14.900391,
+          "movement": "Up"
+        }
+      },
+      {
+        "stock": ".IXIC:INDEXNASDAQ",
+        "link": "https://www.google.com/finance/quote/.IXIC:INDEXNASDAQ",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=.IXIC%3AINDEXNASDAQ",
+        "name": "Nasdaq",
+        "price": 19050.79,
+        "price_movement": {
+          "percentage": 0.24805062,
+          "value": 47.13867,
+          "movement": "Up"
+        }
+      },
+      {
+        "stock": "RUT:INDEXRUSSELL",
+        "link": "https://www.google.com/finance/quote/RUT:INDEXRUSSELL",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=RUT%3AINDEXRUSSELL",
+        "name": "Russell",
+        "price": 2450.7065,
+        "price_movement": {
+          "percentage": 1.8297637,
+          "value": 44.036377,
+          "movement": "Up"
+        }
+      },
+      {
+        "stock": "VIX:INDEXCBOE",
+        "link": "https://www.google.com/finance/quote/VIX:INDEXCBOE",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=VIX%3AINDEXCBOE",
+        "name": "VIX",
+        "price": 15.16,
+        "price_movement": {
+          "percentage": 0.5249339,
+          "value": 0.07999992,
+          "movement": "Down"
+        }
+      }
+    ],
+    "europe": [
+      {
+        "stock": "DAX:INDEXDB",
+        "link": "https://www.google.com/finance/quote/DAX:INDEXDB",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=DAX%3AINDEXDB",
+        "name": "DAX",
+        "price": 19405.2,
+        "price_movement": {
+          "percentage": 0.42752746,
+          "value": 82.609375,
+          "movement": "Up"
+        }
+      },
+      {
+        "stock": "UKX:INDEXFTSE",
+        "link": "https://www.google.com/finance/quote/UKX:INDEXFTSE",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=UKX%3AINDEXFTSE",
+        "name": "FTSE 100",
+        "price": 8291.68,
+        "price_movement": {
+          "percentage": 0.35825858,
+          "value": 29.59961,
+          "movement": "Up"
+        }
+      },
+      {
+        "stock": "PX1:INDEXEURO",
+        "link": "https://www.google.com/finance/quote/PX1:INDEXEURO",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=PX1%3AINDEXEURO",
+        "name": "CAC 40",
+        "price": 7257.47,
+        "price_movement": {
+          "percentage": 0.033913795,
+          "value": 2.4604492,
+          "movement": "Up"
+        }
+      },
+      {
+        "stock": "INDI:INDEXBME",
+        "link": "https://www.google.com/finance/quote/INDI:INDEXBME",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=INDI%3AINDEXBME",
+        "name": "IBEX 35",
+        "price": 11711.8,
+        "price_movement": {
+          "percentage": 0.47355315,
+          "value": 55.200195,
+          "movement": "Up"
+        }
+      },
+      {
+        "stock": "SX5E:INDEXSTOXX",
+        "link": "https://www.google.com/finance/quote/SX5E:INDEXSTOXX",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=SX5E%3AINDEXSTOXX",
+        "name": "STOXX 50",
+        "price": 4799.87,
+        "price_movement": {
+          "percentage": 0.22530505,
+          "value": 10.790039,
+          "movement": "Up"
+        }
+      }
+    ],
+    "asia": [
+      {
+        "stock": "NI225:INDEXNIKKEI",
+        "link": "https://www.google.com/finance/quote/NI225:INDEXNIKKEI",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=NI225%3AINDEXNIKKEI",
+        "name": "Nikkei 225",
+        "price": 38780.14,
+        "price_movement": {
+          "percentage": 1.2963405,
+          "value": 496.28906,
+          "movement": "Up"
+        }
+      },
+      {
+        "stock": "000001:SHA",
+        "link": "https://www.google.com/finance/quote/000001:SHA",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=000001%3ASHA",
+        "name": "SSE",
+        "price": 3263.7598,
+        "price_movement": {
+          "percentage": 0.10504082,
+          "value": 3.4318848,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": "HSI:INDEXHANGSENG",
+        "link": "https://www.google.com/finance/quote/HSI:INDEXHANGSENG",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=HSI%3AINDEXHANGSENG",
+        "name": "HSI",
+        "price": 19150.99,
+        "price_movement": {
+          "percentage": 0.4107155,
+          "value": 78.98047,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": "SENSEX:INDEXBOM",
+        "link": "https://www.google.com/finance/quote/SENSEX:INDEXBOM",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=SENSEX%3AINDEXBOM",
+        "name": "SENSEX",
+        "price": 80109.85,
+        "price_movement": {
+          "percentage": 1.2547756,
+          "value": 992.7422,
+          "movement": "Up"
+        }
+      },
+      {
+        "stock": "NIFTY_50:INDEXNSE",
+        "link": "https://www.google.com/finance/quote/NIFTY_50:INDEXNSE",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=NIFTY_50%3AINDEXNSE",
+        "name": "NIFTY 50",
+        "price": 24221.9,
+        "price_movement": {
+          "percentage": 1.3161296,
+          "value": 314.6504,
+          "movement": "Up"
+        }
+      }
+    ],
+    "currencies": [
+      {
+        "stock": "EUR-USD",
+        "link": "https://www.google.com/finance/quote/EUR-USD",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=EUR-USD",
+        "name": "EUR / USD",
+        "price": 1.04943357,
+        "price_movement": {
+          "percentage": 0.1664204,
+          "value": 0.00174357,
+          "movement": "Up"
+        }
+      },
+      {
+        "stock": "USD-JPY",
+        "link": "https://www.google.com/finance/quote/USD-JPY",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=USD-JPY",
+        "name": "USD / JPY",
+        "price": 154.2695,
+        "price_movement": {
+          "percentage": 0.05740006,
+          "value": 0.08850000000000001,
+          "movement": "Up"
+        }
+      },
+      {
+        "stock": "GBP-USD",
+        "link": "https://www.google.com/finance/quote/GBP-USD",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=GBP-USD",
+        "name": "GBP / USD",
+        "price": 1.2560999400000001,
+        "price_movement": {
+          "percentage": 0.2402509,
+          "value": 0.00302506,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": "USD-CAD",
+        "link": "https://www.google.com/finance/quote/USD-CAD",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=USD-CAD",
+        "name": "USD / CAD",
+        "price": 1.39857206,
+        "price_movement": {
+          "percentage": 0.37298349999999997,
+          "value": 0.00519706,
+          "movement": "Up"
+        }
+      },
+      {
+        "stock": "AUD-USD",
+        "link": "https://www.google.com/finance/quote/AUD-USD",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=AUD-USD",
+        "name": "AUD / USD",
+        "price": 0.6493749999999999,
+        "price_movement": {
+          "percentage": 0.7140181000000001,
+          "value": 0.00467,
+          "movement": "Down"
+        }
+      }
+    ],
+    "crypto": [
+      {
+        "stock": "BTC-USD",
+        "link": "https://www.google.com/finance/quote/BTC-USD",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=BTC-USD",
+        "name": "Bitcoin",
+        "price": 95671.58,
+        "price_movement": {
+          "percentage": 2.342376,
+          "value": 2294.7400000000002,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": "ETH-USD",
+        "link": "https://www.google.com/finance/quote/ETH-USD",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=ETH-USD",
+        "name": "Ethereum",
+        "price": 3472.1397616122003,
+        "price_movement": {
+          "percentage": 3.245803,
+          "value": 109.15584730500001,
+          "movement": "Up"
+        }
+      },
+      {
+        "stock": "ADA-USD",
+        "link": "https://www.google.com/finance/quote/ADA-USD",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=ADA-USD",
+        "name": "Cardano",
+        "price": 1.00021349322,
+        "price_movement": {
+          "percentage": 2.1677939999999998,
+          "value": 0.022163022299999998,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": "XRP-USD",
+        "link": "https://www.google.com/finance/quote/XRP-USD",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=XRP-USD",
+        "name": "XRP",
+        "price": 1.48199622912,
+        "price_movement": {
+          "percentage": 3.3094949999999996,
+          "value": 0.04747540536,
+          "movement": "Up"
+        }
+      },
+      {
+        "stock": "DOGE-USD",
+        "link": "https://www.google.com/finance/quote/DOGE-USD",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=DOGE-USD",
+        "name": "Dogecoin",
+        "price": 0.40331960910000003,
+        "price_movement": {
+          "percentage": 6.220476,
+          "value": 0.0267525357,
+          "movement": "Down"
+        }
+      }
+    ],
+    "futures": [
+      {
+        "stock": "YMW00:CBOT",
+        "link": "https://www.google.com/finance/quote/YMW00:CBOT",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=YMW00%3ACBOT",
+        "name": "Dow Futures",
+        "price": 44761.0,
+        "currency": "USD",
+        "price_movement": {
+          "percentage": 0.8244172,
+          "value": 366.0,
+          "movement": "Up"
+        }
+      },
+      {
+        "stock": "ESW00:CME_EMINIS",
+        "link": "https://www.google.com/finance/quote/ESW00:CME_EMINIS",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=ESW00%3ACME_EMINIS",
+        "name": "S&P Futures",
+        "price": 6004.25,
+        "currency": "USD",
+        "price_movement": {
+          "percentage": 0.28812426,
+          "value": 17.25,
+          "movement": "Up"
+        }
+      },
+      {
+        "stock": "NQW00:CME_EMINIS",
+        "link": "https://www.google.com/finance/quote/NQW00:CME_EMINIS",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=NQW00%3ACME_EMINIS",
+        "name": "Nasdaq Futures",
+        "price": 20882.0,
+        "currency": "USD",
+        "price_movement": {
+          "percentage": 0.1546781,
+          "value": 32.25,
+          "movement": "Up"
+        }
+      },
+      {
+        "stock": "GCW00:COMEX",
+        "link": "https://www.google.com/finance/quote/GCW00:COMEX",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=GCW00%3ACOMEX",
+        "name": "Gold",
+        "price": 2647.10009765625,
+        "currency": "USD",
+        "price_movement": {
+          "percentage": 3.2916796,
+          "value": 90.09985,
+          "movement": "Down"
+        }
+      },
+      {
+        "stock": "CLW00:NYMEX",
+        "link": "https://www.google.com/finance/quote/CLW00:NYMEX",
+        "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=CLW00%3ANYMEX",
+        "name": "Crude Oil",
+        "price": 68.81999969482422,
+        "currency": "USD",
+        "price_movement": {
+          "percentage": 3.3969655,
+          "value": 2.4199982,
+          "movement": "Down"
+        }
+      }
+    ]
+  },
+  "summary": {
+    "title": "NVIDIA Corp",
+    "stock": "NVDA",
+    "exchange": "NASDAQ",
+    "price": "$137.29",
+    "extracted_price": 137.29,
+    "currency": "$",
+    "price_movement": {
+      "percentage": -3.284257,
+      "value": -4.6620026,
+      "movement": "Down"
+    },
+    "extensions": [
+      "Nov 25, 1:27:35 PM GMT-5",
+      "USD",
+      "NASDAQ"
+    ]
+  },
+  "graph": [
+    {
+      "price": 141.87,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:30 AM UTC-05:00",
+      "volume": 56860
+    },
+    {
+      "price": 141.81,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:31 AM UTC-05:00",
+      "volume": 2651
+    },
+    {
+      "price": 139.87,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:32 AM UTC-05:00",
+      "volume": 3439599
+    },
+    {
+      "price": 140.2801,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:33 AM UTC-05:00",
+      "volume": 1413670
+    },
+    {
+      "price": 139.8857,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:34 AM UTC-05:00",
+      "volume": 1639434
+    },
+    {
+      "price": 139.52,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:35 AM UTC-05:00",
+      "volume": 1692354
+    },
+    {
+      "price": 139.04,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:36 AM UTC-05:00",
+      "volume": 2121926
+    },
+    {
+      "price": 138.74,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:37 AM UTC-05:00",
+      "volume": 1459790
+    },
+    {
+      "price": 139.205,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:38 AM UTC-05:00",
+      "volume": 1648885
+    },
+    {
+      "price": 139.96,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:39 AM UTC-05:00",
+      "volume": 1963404
+    },
+    {
+      "price": 140.44,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:40 AM UTC-05:00",
+      "volume": 1578620
+    },
+    {
+      "price": 139.935,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:41 AM UTC-05:00",
+      "volume": 1358659
+    },
+    {
+      "price": 139.9,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:42 AM UTC-05:00",
+      "volume": 882023
+    },
+    {
+      "price": 139.96,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:43 AM UTC-05:00",
+      "volume": 772114
+    },
+    {
+      "price": 139.325,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:44 AM UTC-05:00",
+      "volume": 1282690
+    },
+    {
+      "price": 139.23,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:45 AM UTC-05:00",
+      "volume": 1375410
+    },
+    {
+      "price": 139.4,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:46 AM UTC-05:00",
+      "volume": 1113646
+    },
+    {
+      "price": 138.8053,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:47 AM UTC-05:00",
+      "volume": 1407793
+    },
+    {
+      "price": 138.97,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:48 AM UTC-05:00",
+      "volume": 1115915
+    },
+    {
+      "price": 138.6797,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:49 AM UTC-05:00",
+      "volume": 1464991
+    },
+    {
+      "price": 138.5235,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:50 AM UTC-05:00",
+      "volume": 1396583
+    },
+    {
+      "price": 138.6,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:51 AM UTC-05:00",
+      "volume": 1092762
+    },
+    {
+      "price": 138.1,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:52 AM UTC-05:00",
+      "volume": 1436291
+    },
+    {
+      "price": 138.09,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:53 AM UTC-05:00",
+      "volume": 2849229
+    },
+    {
+      "price": 136.88,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:54 AM UTC-05:00",
+      "volume": 3090549
+    },
+    {
+      "price": 136.89,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:55 AM UTC-05:00",
+      "volume": 2160523
+    },
+    {
+      "price": 137.39,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:56 AM UTC-05:00",
+      "volume": 1555779
+    },
+    {
+      "price": 137.59,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:57 AM UTC-05:00",
+      "volume": 1395308
+    },
+    {
+      "price": 137.66,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:58 AM UTC-05:00",
+      "volume": 875239
+    },
+    {
+      "price": 137.95,
+      "currency": "USD",
+      "date": "Nov 25 2024, 09:59 AM UTC-05:00",
+      "volume": 988510
+    },
+    {
+      "price": 137.47,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:00 AM UTC-05:00",
+      "volume": 1103934
+    },
+    {
+      "price": 137.9009,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:01 AM UTC-05:00",
+      "volume": 956092
+    },
+    {
+      "price": 137.98,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:02 AM UTC-05:00",
+      "volume": 801104
+    },
+    {
+      "price": 137.98,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:03 AM UTC-05:00",
+      "volume": 520623
+    },
+    {
+      "price": 138.0,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:04 AM UTC-05:00",
+      "volume": 640821
+    },
+    {
+      "price": 138.0001,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:05 AM UTC-05:00",
+      "volume": 928605
+    },
+    {
+      "price": 138.0034,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:06 AM UTC-05:00",
+      "volume": 547518
+    },
+    {
+      "price": 138.07,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:07 AM UTC-05:00",
+      "volume": 575632
+    },
+    {
+      "price": 137.79,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:08 AM UTC-05:00",
+      "volume": 916337
+    },
+    {
+      "price": 137.97,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:09 AM UTC-05:00",
+      "volume": 708721
+    },
+    {
+      "price": 137.485,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:10 AM UTC-05:00",
+      "volume": 954198
+    },
+    {
+      "price": 137.535,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:11 AM UTC-05:00",
+      "volume": 906980
+    },
+    {
+      "price": 137.1258,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:12 AM UTC-05:00",
+      "volume": 1385747
+    },
+    {
+      "price": 136.8689,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:13 AM UTC-05:00",
+      "volume": 1650514
+    },
+    {
+      "price": 136.83,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:14 AM UTC-05:00",
+      "volume": 860777
+    },
+    {
+      "price": 137.1701,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:15 AM UTC-05:00",
+      "volume": 1236447
+    },
+    {
+      "price": 137.23,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:16 AM UTC-05:00",
+      "volume": 1018044
+    },
+    {
+      "price": 137.5275,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:17 AM UTC-05:00",
+      "volume": 572654
+    },
+    {
+      "price": 137.2814,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:18 AM UTC-05:00",
+      "volume": 594098
+    },
+    {
+      "price": 137.35,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:19 AM UTC-05:00",
+      "volume": 662319
+    },
+    {
+      "price": 136.92,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:20 AM UTC-05:00",
+      "volume": 727318
+    },
+    {
+      "price": 137.17,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:21 AM UTC-05:00",
+      "volume": 810861
+    },
+    {
+      "price": 137.391,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:22 AM UTC-05:00",
+      "volume": 670847
+    },
+    {
+      "price": 137.1674,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:23 AM UTC-05:00",
+      "volume": 487962
+    },
+    {
+      "price": 137.22,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:24 AM UTC-05:00",
+      "volume": 771262
+    },
+    {
+      "price": 137.22,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:25 AM UTC-05:00",
+      "volume": 464794
+    },
+    {
+      "price": 137.3099,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:26 AM UTC-05:00",
+      "volume": 537737
+    },
+    {
+      "price": 137.2,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:27 AM UTC-05:00",
+      "volume": 982808
+    },
+    {
+      "price": 137.1,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:28 AM UTC-05:00",
+      "volume": 569388
+    },
+    {
+      "price": 137.1,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:29 AM UTC-05:00",
+      "volume": 771093
+    },
+    {
+      "price": 137.04,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:30 AM UTC-05:00",
+      "volume": 473467
+    },
+    {
+      "price": 137.245,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:31 AM UTC-05:00",
+      "volume": 835014
+    },
+    {
+      "price": 137.07,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:32 AM UTC-05:00",
+      "volume": 619678
+    },
+    {
+      "price": 137.105,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:33 AM UTC-05:00",
+      "volume": 551213
+    },
+    {
+      "price": 136.62,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:34 AM UTC-05:00",
+      "volume": 1383189
+    },
+    {
+      "price": 136.4361,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:35 AM UTC-05:00",
+      "volume": 918625
+    },
+    {
+      "price": 136.36,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:36 AM UTC-05:00",
+      "volume": 1114120
+    },
+    {
+      "price": 136.46,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:37 AM UTC-05:00",
+      "volume": 851127
+    },
+    {
+      "price": 136.73,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:38 AM UTC-05:00",
+      "volume": 1103846
+    },
+    {
+      "price": 136.95,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:39 AM UTC-05:00",
+      "volume": 745301
+    },
+    {
+      "price": 136.762,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:40 AM UTC-05:00",
+      "volume": 573639
+    },
+    {
+      "price": 136.89,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:41 AM UTC-05:00",
+      "volume": 486736
+    },
+    {
+      "price": 137.18,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:42 AM UTC-05:00",
+      "volume": 709217
+    },
+    {
+      "price": 137.4397,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:43 AM UTC-05:00",
+      "volume": 599170
+    },
+    {
+      "price": 137.61,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:44 AM UTC-05:00",
+      "volume": 663541
+    },
+    {
+      "price": 137.535,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:45 AM UTC-05:00",
+      "volume": 721919
+    },
+    {
+      "price": 137.58,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:46 AM UTC-05:00",
+      "volume": 501407
+    },
+    {
+      "price": 137.565,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:47 AM UTC-05:00",
+      "volume": 532742
+    },
+    {
+      "price": 137.73,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:48 AM UTC-05:00",
+      "volume": 534546
+    },
+    {
+      "price": 137.87,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:49 AM UTC-05:00",
+      "volume": 594362
+    },
+    {
+      "price": 137.9301,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:50 AM UTC-05:00",
+      "volume": 578052
+    },
+    {
+      "price": 137.85,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:51 AM UTC-05:00",
+      "volume": 702941
+    },
+    {
+      "price": 137.6424,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:52 AM UTC-05:00",
+      "volume": 708758
+    },
+    {
+      "price": 137.635,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:53 AM UTC-05:00",
+      "volume": 378678
+    },
+    {
+      "price": 137.71,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:54 AM UTC-05:00",
+      "volume": 369339
+    },
+    {
+      "price": 137.7707,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:55 AM UTC-05:00",
+      "volume": 291834
+    },
+    {
+      "price": 137.805,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:56 AM UTC-05:00",
+      "volume": 301416
+    },
+    {
+      "price": 137.5299,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:57 AM UTC-05:00",
+      "volume": 622990
+    },
+    {
+      "price": 137.4199,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:58 AM UTC-05:00",
+      "volume": 428580
+    },
+    {
+      "price": 137.4015,
+      "currency": "USD",
+      "date": "Nov 25 2024, 10:59 AM UTC-05:00",
+      "volume": 436413
+    },
+    {
+      "price": 137.4,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:00 AM UTC-05:00",
+      "volume": 331353
+    },
+    {
+      "price": 137.26,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:01 AM UTC-05:00",
+      "volume": 937040
+    },
+    {
+      "price": 137.2997,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:02 AM UTC-05:00",
+      "volume": 451223
+    },
+    {
+      "price": 137.545,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:03 AM UTC-05:00",
+      "volume": 460644
+    },
+    {
+      "price": 137.58,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:04 AM UTC-05:00",
+      "volume": 462836
+    },
+    {
+      "price": 137.66,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:05 AM UTC-05:00",
+      "volume": 313623
+    },
+    {
+      "price": 137.615,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:06 AM UTC-05:00",
+      "volume": 271192
+    },
+    {
+      "price": 137.55,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:07 AM UTC-05:00",
+      "volume": 305063
+    },
+    {
+      "price": 137.7,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:08 AM UTC-05:00",
+      "volume": 289226
+    },
+    {
+      "price": 137.49,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:09 AM UTC-05:00",
+      "volume": 481027
+    },
+    {
+      "price": 137.39,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:10 AM UTC-05:00",
+      "volume": 523660
+    },
+    {
+      "price": 137.48,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:11 AM UTC-05:00",
+      "volume": 296837
+    },
+    {
+      "price": 137.52,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:12 AM UTC-05:00",
+      "volume": 377699
+    },
+    {
+      "price": 137.6,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:13 AM UTC-05:00",
+      "volume": 270087
+    },
+    {
+      "price": 137.4119,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:14 AM UTC-05:00",
+      "volume": 274606
+    },
+    {
+      "price": 137.3399,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:15 AM UTC-05:00",
+      "volume": 309897
+    },
+    {
+      "price": 137.41,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:16 AM UTC-05:00",
+      "volume": 293264
+    },
+    {
+      "price": 137.4638,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:17 AM UTC-05:00",
+      "volume": 241600
+    },
+    {
+      "price": 137.535,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:18 AM UTC-05:00",
+      "volume": 322893
+    },
+    {
+      "price": 137.6,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:19 AM UTC-05:00",
+      "volume": 341067
+    },
+    {
+      "price": 137.68,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:20 AM UTC-05:00",
+      "volume": 335279
+    },
+    {
+      "price": 137.69,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:21 AM UTC-05:00",
+      "volume": 270727
+    },
+    {
+      "price": 137.74,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:22 AM UTC-05:00",
+      "volume": 285178
+    },
+    {
+      "price": 137.9601,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:23 AM UTC-05:00",
+      "volume": 483485
+    },
+    {
+      "price": 137.775,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:24 AM UTC-05:00",
+      "volume": 544741
+    },
+    {
+      "price": 137.86,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:25 AM UTC-05:00",
+      "volume": 231492
+    },
+    {
+      "price": 137.91,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:26 AM UTC-05:00",
+      "volume": 376814
+    },
+    {
+      "price": 138.0714,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:27 AM UTC-05:00",
+      "volume": 724746
+    },
+    {
+      "price": 138.18,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:28 AM UTC-05:00",
+      "volume": 441402
+    },
+    {
+      "price": 138.285,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:29 AM UTC-05:00",
+      "volume": 648288
+    },
+    {
+      "price": 138.329,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:30 AM UTC-05:00",
+      "volume": 511783
+    },
+    {
+      "price": 138.405,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:31 AM UTC-05:00",
+      "volume": 524144
+    },
+    {
+      "price": 138.53,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:32 AM UTC-05:00",
+      "volume": 700423
+    },
+    {
+      "price": 138.6,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:33 AM UTC-05:00",
+      "volume": 664730
+    },
+    {
+      "price": 138.5,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:34 AM UTC-05:00",
+      "volume": 346544
+    },
+    {
+      "price": 138.29,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:35 AM UTC-05:00",
+      "volume": 625608
+    },
+    {
+      "price": 138.38,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:36 AM UTC-05:00",
+      "volume": 386926
+    },
+    {
+      "price": 138.14,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:37 AM UTC-05:00",
+      "volume": 538475
+    },
+    {
+      "price": 138.29,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:38 AM UTC-05:00",
+      "volume": 406648
+    },
+    {
+      "price": 138.151,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:39 AM UTC-05:00",
+      "volume": 285022
+    },
+    {
+      "price": 138.045,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:40 AM UTC-05:00",
+      "volume": 258200
+    },
+    {
+      "price": 138.1,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:41 AM UTC-05:00",
+      "volume": 468517
+    },
+    {
+      "price": 138.01,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:42 AM UTC-05:00",
+      "volume": 330251
+    },
+    {
+      "price": 138.0566,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:43 AM UTC-05:00",
+      "volume": 236918
+    },
+    {
+      "price": 137.965,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:44 AM UTC-05:00",
+      "volume": 380097
+    },
+    {
+      "price": 137.9802,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:45 AM UTC-05:00",
+      "volume": 186451
+    },
+    {
+      "price": 137.8899,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:46 AM UTC-05:00",
+      "volume": 482298
+    },
+    {
+      "price": 137.99,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:47 AM UTC-05:00",
+      "volume": 253480
+    },
+    {
+      "price": 138.0492,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:48 AM UTC-05:00",
+      "volume": 314752
+    },
+    {
+      "price": 138.13,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:49 AM UTC-05:00",
+      "volume": 293821
+    },
+    {
+      "price": 137.775,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:50 AM UTC-05:00",
+      "volume": 589606
+    },
+    {
+      "price": 137.7597,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:51 AM UTC-05:00",
+      "volume": 457109
+    },
+    {
+      "price": 137.795,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:52 AM UTC-05:00",
+      "volume": 249144
+    },
+    {
+      "price": 137.845,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:53 AM UTC-05:00",
+      "volume": 320272
+    },
+    {
+      "price": 137.8,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:54 AM UTC-05:00",
+      "volume": 217782
+    },
+    {
+      "price": 137.6008,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:55 AM UTC-05:00",
+      "volume": 319575
+    },
+    {
+      "price": 137.7037,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:56 AM UTC-05:00",
+      "volume": 268594
+    },
+    {
+      "price": 137.7301,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:57 AM UTC-05:00",
+      "volume": 193920
+    },
+    {
+      "price": 137.8301,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:58 AM UTC-05:00",
+      "volume": 221234
+    },
+    {
+      "price": 137.69,
+      "currency": "USD",
+      "date": "Nov 25 2024, 11:59 AM UTC-05:00",
+      "volume": 168300
+    },
+    {
+      "price": 137.55,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:00 PM UTC-05:00",
+      "volume": 257926
+    },
+    {
+      "price": 137.5001,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:01 PM UTC-05:00",
+      "volume": 397447
+    },
+    {
+      "price": 137.5013,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:02 PM UTC-05:00",
+      "volume": 243773
+    },
+    {
+      "price": 137.42,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:03 PM UTC-05:00",
+      "volume": 325480
+    },
+    {
+      "price": 137.365,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:04 PM UTC-05:00",
+      "volume": 278344
+    },
+    {
+      "price": 137.4588,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:05 PM UTC-05:00",
+      "volume": 305356
+    },
+    {
+      "price": 137.4559,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:06 PM UTC-05:00",
+      "volume": 232488
+    },
+    {
+      "price": 137.3453,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:07 PM UTC-05:00",
+      "volume": 242438
+    },
+    {
+      "price": 137.335,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:08 PM UTC-05:00",
+      "volume": 278658
+    },
+    {
+      "price": 137.27,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:09 PM UTC-05:00",
+      "volume": 171019
+    },
+    {
+      "price": 137.23,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:10 PM UTC-05:00",
+      "volume": 403040
+    },
+    {
+      "price": 137.31,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:11 PM UTC-05:00",
+      "volume": 294571
+    },
+    {
+      "price": 137.195,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:12 PM UTC-05:00",
+      "volume": 246075
+    },
+    {
+      "price": 137.08,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:13 PM UTC-05:00",
+      "volume": 511524
+    },
+    {
+      "price": 137.06,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:14 PM UTC-05:00",
+      "volume": 360078
+    },
+    {
+      "price": 136.96,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:15 PM UTC-05:00",
+      "volume": 781906
+    },
+    {
+      "price": 137.055,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:16 PM UTC-05:00",
+      "volume": 392295
+    },
+    {
+      "price": 136.965,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:17 PM UTC-05:00",
+      "volume": 380757
+    },
+    {
+      "price": 136.7977,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:18 PM UTC-05:00",
+      "volume": 526268
+    },
+    {
+      "price": 136.925,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:19 PM UTC-05:00",
+      "volume": 303640
+    },
+    {
+      "price": 137.05,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:20 PM UTC-05:00",
+      "volume": 487791
+    },
+    {
+      "price": 137.0399,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:21 PM UTC-05:00",
+      "volume": 338637
+    },
+    {
+      "price": 136.78,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:22 PM UTC-05:00",
+      "volume": 424991
+    },
+    {
+      "price": 136.755,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:23 PM UTC-05:00",
+      "volume": 374012
+    },
+    {
+      "price": 136.7492,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:24 PM UTC-05:00",
+      "volume": 450572
+    },
+    {
+      "price": 136.65,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:25 PM UTC-05:00",
+      "volume": 396825
+    },
+    {
+      "price": 136.99,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:26 PM UTC-05:00",
+      "volume": 575536
+    },
+    {
+      "price": 136.9603,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:27 PM UTC-05:00",
+      "volume": 273710
+    },
+    {
+      "price": 137.0597,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:28 PM UTC-05:00",
+      "volume": 294887
+    },
+    {
+      "price": 137.06,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:29 PM UTC-05:00",
+      "volume": 324218
+    },
+    {
+      "price": 136.9487,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:30 PM UTC-05:00",
+      "volume": 372720
+    },
+    {
+      "price": 136.9901,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:31 PM UTC-05:00",
+      "volume": 329116
+    },
+    {
+      "price": 137.09,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:32 PM UTC-05:00",
+      "volume": 284780
+    },
+    {
+      "price": 137.115,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:33 PM UTC-05:00",
+      "volume": 410272
+    },
+    {
+      "price": 137.0399,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:34 PM UTC-05:00",
+      "volume": 387018
+    },
+    {
+      "price": 137.01,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:35 PM UTC-05:00",
+      "volume": 308010
+    },
+    {
+      "price": 137.09,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:36 PM UTC-05:00",
+      "volume": 194574
+    },
+    {
+      "price": 136.93,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:37 PM UTC-05:00",
+      "volume": 336302
+    },
+    {
+      "price": 136.94,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:38 PM UTC-05:00",
+      "volume": 243392
+    },
+    {
+      "price": 136.8401,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:39 PM UTC-05:00",
+      "volume": 242432
+    },
+    {
+      "price": 136.95,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:40 PM UTC-05:00",
+      "volume": 167586
+    },
+    {
+      "price": 136.9982,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:41 PM UTC-05:00",
+      "volume": 199538
+    },
+    {
+      "price": 136.93,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:42 PM UTC-05:00",
+      "volume": 132265
+    },
+    {
+      "price": 137.04,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:43 PM UTC-05:00",
+      "volume": 187623
+    },
+    {
+      "price": 136.955,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:44 PM UTC-05:00",
+      "volume": 171504
+    },
+    {
+      "price": 136.9594,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:45 PM UTC-05:00",
+      "volume": 428814
+    },
+    {
+      "price": 136.75,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:46 PM UTC-05:00",
+      "volume": 292625
+    },
+    {
+      "price": 136.55,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:47 PM UTC-05:00",
+      "volume": 894060
+    },
+    {
+      "price": 136.87,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:48 PM UTC-05:00",
+      "volume": 396372
+    },
+    {
+      "price": 136.975,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:49 PM UTC-05:00",
+      "volume": 372940
+    },
+    {
+      "price": 136.995,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:50 PM UTC-05:00",
+      "volume": 307726
+    },
+    {
+      "price": 137.06,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:51 PM UTC-05:00",
+      "volume": 564752
+    },
+    {
+      "price": 137.105,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:52 PM UTC-05:00",
+      "volume": 309255
+    },
+    {
+      "price": 137.3,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:53 PM UTC-05:00",
+      "volume": 453389
+    },
+    {
+      "price": 137.295,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:54 PM UTC-05:00",
+      "volume": 313743
+    },
+    {
+      "price": 137.3201,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:55 PM UTC-05:00",
+      "volume": 380306
+    },
+    {
+      "price": 137.2211,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:56 PM UTC-05:00",
+      "volume": 337832
+    },
+    {
+      "price": 137.3301,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:57 PM UTC-05:00",
+      "volume": 255926
+    },
+    {
+      "price": 137.5,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:58 PM UTC-05:00",
+      "volume": 459937
+    },
+    {
+      "price": 137.4999,
+      "currency": "USD",
+      "date": "Nov 25 2024, 12:59 PM UTC-05:00",
+      "volume": 280450
+    },
+    {
+      "price": 137.4899,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:00 PM UTC-05:00",
+      "volume": 214585
+    },
+    {
+      "price": 137.4389,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:01 PM UTC-05:00",
+      "volume": 128034
+    },
+    {
+      "price": 137.315,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:02 PM UTC-05:00",
+      "volume": 173201
+    },
+    {
+      "price": 137.465,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:03 PM UTC-05:00",
+      "volume": 142090
+    },
+    {
+      "price": 137.53,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:04 PM UTC-05:00",
+      "volume": 295286
+    },
+    {
+      "price": 137.595,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:05 PM UTC-05:00",
+      "volume": 183067
+    },
+    {
+      "price": 137.51,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:06 PM UTC-05:00",
+      "volume": 164388
+    },
+    {
+      "price": 137.575,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:07 PM UTC-05:00",
+      "volume": 164457
+    },
+    {
+      "price": 137.69,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:08 PM UTC-05:00",
+      "volume": 227849
+    },
+    {
+      "price": 137.68,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:09 PM UTC-05:00",
+      "volume": 248175
+    },
+    {
+      "price": 137.7297,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:10 PM UTC-05:00",
+      "volume": 199088
+    },
+    {
+      "price": 137.7298,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:11 PM UTC-05:00",
+      "volume": 197131
+    },
+    {
+      "price": 137.795,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:12 PM UTC-05:00",
+      "volume": 207049
+    },
+    {
+      "price": 137.77,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:13 PM UTC-05:00",
+      "volume": 148923
+    },
+    {
+      "price": 137.66,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:14 PM UTC-05:00",
+      "volume": 227246
+    },
+    {
+      "price": 137.61,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:15 PM UTC-05:00",
+      "volume": 206562
+    },
+    {
+      "price": 137.645,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:16 PM UTC-05:00",
+      "volume": 103926
+    },
+    {
+      "price": 137.655,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:17 PM UTC-05:00",
+      "volume": 9071
+    },
+    {
+      "price": 137.7,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:18 PM UTC-05:00",
+      "volume": 3909
+    },
+    {
+      "price": 137.735,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:19 PM UTC-05:00",
+      "volume": 19933
+    },
+    {
+      "price": 137.74,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:20 PM UTC-05:00",
+      "volume": 15039
+    },
+    {
+      "price": 137.705,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:21 PM UTC-05:00",
+      "volume": 4016
+    },
+    {
+      "price": 137.74,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:22 PM UTC-05:00",
+      "volume": 1650
+    },
+    {
+      "price": 137.705,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:23 PM UTC-05:00",
+      "volume": 600
+    },
+    {
+      "price": 137.565,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:24 PM UTC-05:00",
+      "volume": 1700
+    },
+    {
+      "price": 137.6599,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:25 PM UTC-05:00",
+      "volume": 14010
+    },
+    {
+      "price": 137.5467,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:26 PM UTC-05:00",
+      "volume": 8412
+    },
+    {
+      "price": 137.485,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:27 PM UTC-05:00",
+      "volume": 4970
+    },
+    {
+      "price": 137.345,
+      "currency": "USD",
+      "date": "Nov 25 2024, 01:28 PM UTC-05:00",
+      "volume": 200
+    }
+  ],
+  "knowledge_graph": {
+    "key_stats": {
+      "tags": [
+        {
+          "text": "Trending",
+          "description": "This security is a popular search topic on Google"
+        },
+        {
+          "text": "Most active",
+          "link": "https://www.google.com/finance/markets/most-active",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance_markets&hl=en&trend=most-active",
+          "description": "One of the most heavily traded stocks during the last trading session"
+        },
+        {
+          "text": "Stock",
+          "description": "Ownership of a fraction of a corporation and the right to claim a share of the corporation's assets and profits equal to the amount of stock owned"
+        },
+        {
+          "text": "US listed security",
+          "description": "Listed on NASDAQ"
+        },
+        {
+          "text": "US headquartered",
+          "description": "Headquartered in Santa Clara, California, United States"
+        }
+      ],
+      "stats": [
+        {
+          "label": "Previous close",
+          "description": "The last closing price",
+          "value": "$141.95"
+        },
+        {
+          "label": "Day range",
+          "description": "The range between the high and low prices over the past day",
+          "value": "$136.22 - $142.05"
+        },
+        {
+          "label": "Year range",
+          "description": "The range between the high and low prices over the past 52 weeks",
+          "value": "$45.01 - $152.89"
+        },
+        {
+          "label": "Market cap",
+          "description": "A valuation method that multiplies the price of a company's stock by the total number of outstanding shares.",
+          "value": "3.37T USD"
+        },
+        {
+          "label": "Avg Volume",
+          "description": "The average number of shares traded each day over the past 30 days",
+          "value": "229.57M"
+        },
+        {
+          "label": "P/E ratio",
+          "description": "The ratio of current share price to trailing twelve month EPS that signals if the price is high or low compared to other stocks",
+          "value": "54.10"
+        },
+        {
+          "label": "Dividend yield",
+          "description": "The ratio of annual dividend to current share price that estimates the dividend return of a stock",
+          "value": "0.03%"
+        },
+        {
+          "label": "Primary exchange",
+          "description": "Listed exchange for this security",
+          "value": "NASDAQ"
+        }
+      ],
+      "climate_change": {
+        "score": "B",
+        "link": "https://www.cdp.net/en/responses/13604"
+      }
+    },
+    "about": [
+      {
+        "title": "About",
+        "description": {
+          "snippet": "Nvidia Corporation is an American multinational corporation and technology company headquartered in Santa Clara, California, and incorporated in Delaware. It is a software and fabless company which designs and supplies graphics processing units, application programming interfaces for data science and high-performance computing, as well as system on a chip units for the mobile computing and automotive market. Nvidia is also a dominant supplier of artificial intelligence hardware and software.\nNvidia's professional line of GPUs are used for edge-to-cloud computing and in supercomputers and workstations for applications in fields such as architecture, engineering and construction, media and entertainment, automotive, scientific research, and manufacturing design. Its GeForce line of GPUs are aimed at the consumer market and are used in applications such as video editing, 3D rendering, and PC gaming. With a market share of 80.2% in the second quarter of 2023, Nvidia leads the market for discrete desktop GPUs by a wide margin. ",
+          "link": "https://en.wikipedia.org/wiki/Nvidia",
+          "link_text": "Wikipedia"
+        },
+        "info": [
+          {
+            "label": "CEO",
+            "value": "Jensen Huang",
+            "link": "https://www.google.com/search?q=Jensen%20Huang&hl=en"
+          },
+          {
+            "label": "Founded",
+            "value": "Apr 5, 1993"
+          },
+          {
+            "label": "Headquarters",
+            "value": "Santa Clara, CaliforniaUnited States",
+            "link": "https://www.google.com/maps/place/2788%20San%20Tomas%20Expressway%2C%20Santa%20Clara%2C%20California%2C%20United%20States?hl=en"
+          },
+          {
+            "label": "Website",
+            "value": "nvidia.com",
+            "link": "http://www.nvidia.com/"
+          },
+          {
+            "label": "Employees",
+            "value": "29,600"
+          }
+        ]
+      }
+    ]
+  },
+  "news_results": [
+    {
+      "title": "Top news",
+      "items": [
+        {
+          "snippet": "Dow Jones Futures Rise: Stay Cool In Hot Market; Forget Nvidia, Meet The New AI Chip Leader",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-forget-nvidia-ai-chip-leader-astera-labs/",
+          "source": "Investor's Business Daily",
+          "date": "5 hours ago",
+          "thumbnail": "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRjHWTnQ9tf1PErPHWULl0JG8ouVT_exT5KtXcTgObNjIqjz7MJe9ygqAttcMY"
+        },
+        {
+          "snippet": "Billionaire Israel Englander Is Selling Nvidia and Palantir and Buying a New Stock That Wall Street Thinks Can Soar as Much as 151%",
+          "link": "https://finance.yahoo.com/news/billionaire-israel-englander-selling-nvidia-133000323.html",
+          "source": "Yahoo Finance",
+          "date": "1 day ago",
+          "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTyEcnPkcmvf9kjH4GpRzTTRF-KG0KfLw7RV5mfpOw5K2EPAeOeMt7VsUXS6Z0"
+        },
+        {
+          "snippet": "Nvidia Stock Rises. Chip Maker Holds China Talks Following Trump Election Win.",
+          "link": "https://www.barrons.com/articles/nvidia-stock-china-apple-trump-election-a9203db9",
+          "source": "Barron's",
+          "date": "3 hours ago",
+          "thumbnail": "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcS-e8au9UjgIZ9vZ6c8nSrEoJhyTAEL-9VrUgxPTkum9f9_D04-omGTkeKqI1M"
+        }
+      ]
+    },
+    {
+      "title": "Nvidia earnings report",
+      "items": [
+        {
+          "snippet": "Nvidia Stock May Rise As Musk Aims To Buy $9 Billion In AI Chips",
+          "link": "https://www.forbes.com/sites/petercohan/2024/11/24/nvidia-stock-may-rise-as-musk-aims-to-buy-9-billion-in-ai-chips/",
+          "source": "Forbes",
+          "date": "1 day ago"
+        },
+        {
+          "snippet": "After Nvidia earnings, is the AI trend still investors' friend?",
+          "link": "https://finance.yahoo.com/news/after-nvidia-earnings-is-the-ai-trend-still-investors-friend-150035522.html",
+          "source": "Yahoo Finance",
+          "date": "1 day ago"
+        },
+        {
+          "snippet": "Nvidia's Growth May Be Cooling, but Here's Why I'm Still Buying",
+          "link": "https://www.fool.com/investing/2024/11/25/nvidias-growth-may-be-cooling-but-heres-why-im-sti/",
+          "source": "The Motley Fool",
+          "date": "2 hours ago"
+        }
+      ]
+    },
+    {
+      "title": "Q3 earnings report for Nvidia",
+      "items": [
+        {
+          "snippet": "What Nvidia’s Earnings Say About the AI Semiconductor Stock Trade",
+          "link": "https://www.morningstar.com/stocks/what-nvidias-earnings-say-about-ai-semiconductor-stock-trade",
+          "source": "Morningstar",
+          "date": "2 days ago"
+        },
+        {
+          "snippet": "Nvidia Doubles Profit as A.I. Chip Sales Soar",
+          "link": "https://www.nytimes.com/2024/11/20/technology/nvidia-earnings-chips-ai.html",
+          "source": "The New York Times",
+          "date": "4 days ago"
+        },
+        {
+          "snippet": "Nvidia Earnings Were a Blowout. Why The Stock Will Be Higher in 12 Months",
+          "link": "https://www.barrons.com/articles/nvidia-nvda-stock-price-after-earnings-7266d3a7",
+          "source": "Barron's",
+          "date": "3 days ago"
+        },
+        {
+          "snippet": "Why Nvidia Stock Seems Shaky Despite Beating Earnings Estimates (NVDA)",
+          "link": "https://seekingalpha.com/article/4739585-nvidia-stock-seems-shaky-despite-beating-earnings-estimates",
+          "source": "Seeking Alpha",
+          "date": "3 days ago"
+        }
+      ]
+    },
+    {
+      "title": "Opinion",
+      "items": [
+        {
+          "snippet": "My Favorite Artificial Intelligence Stock to Buy Right Now (Hint: It's Not Nvidia)",
+          "link": "https://www.fool.com/investing/2024/11/20/my-favorite-artificial-intelligence-stock-to-buy/",
+          "source": "The Motley Fool",
+          "date": "5 days ago"
+        },
+        {
+          "snippet": "Nvidia booting Intel from the Dow could end this proven stock-trading strategy",
+          "link": "https://www.marketwatch.com/story/how-nvidia-booting-intel-from-the-dow-could-break-a-proven-stock-trading-strategy-ac84c8fa",
+          "source": "MarketWatch",
+          "date": "3 days ago"
+        },
+        {
+          "snippet": "The Best Graphics Cards for 2024",
+          "link": "https://www.pcmag.com/picks/the-best-graphics-cards",
+          "source": "PCMag",
+          "date": "4 years ago"
+        }
+      ]
+    },
+    {
+      "title": "By the numbers",
+      "items": [
+        {
+          "snippet": "Nvidia nearly doubles revenue on strong AI demand",
+          "link": "https://www.cnbc.com/2024/11/20/nvidia-nvda-earnings-report-q3-2025.html",
+          "source": "CNBC",
+          "date": "5 days ago"
+        },
+        {
+          "snippet": "Nvidia, Target, Super Micro, Williams-Sonoma, Keysight, Fabrinet, Ford, and More Movers",
+          "link": "https://www.barrons.com/articles/stock-market-movers-e34fda3c",
+          "source": "Barron's",
+          "date": "4 days ago"
+        },
+        {
+          "snippet": "Nvidia (NVDA) Reports Q3 Earnings: What Key Metrics Have to Say",
+          "link": "https://finance.yahoo.com/news/nvidia-nvda-reports-q3-earnings-230006165.html",
+          "source": "Yahoo Finance",
+          "date": "4 days ago"
+        }
+      ]
+    },
+    {
+      "title": "News about Nvidia CEO Jensen Huang",
+      "items": [
+        {
+          "snippet": "Nvidia CEO says global cooperation in tech will continue under Trump administration",
+          "link": "https://www.reuters.com/technology/artificial-intelligence/nvidia-ceo-huang-says-the-age-ai-has-started-2024-11-23/",
+          "source": "Reuters",
+          "date": "2 days ago"
+        },
+        {
+          "snippet": "Nvidia’s boss dismisses fears that AI has hit a wall",
+          "link": "https://www.economist.com/business/2024/11/21/nvidias-boss-dismisses-fears-that-ai-has-hit-a-wall",
+          "source": "The Economist",
+          "date": "4 days ago"
+        },
+        {
+          "snippet": "Three mystery whales have each spent $10 billion–plus on Nvidia’s AI chips so far this year",
+          "link": "https://fortune.com/2024/11/21/nvidia-jensen-huang-ai-training-chips-microsoft-google-amazon-tesla-meta-hyperscalers-cloud-computing/",
+          "source": "Fortune",
+          "date": "3 days ago"
+        }
+      ]
+    }
+  ],
+  "financials": [
+    {
+      "title": "Income Statement",
+      "results": [
+        {
+          "date": "Oct 2024",
+          "period_type": "Quarterly",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "35082000000",
+              "change": "93.61%"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "4287000000",
+              "change": "43.71%"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "19309000000",
+              "change": "108.9%"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "55.04",
+              "change": "7.9%"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.81",
+              "change": "101.49%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "22347000000",
+              "change": "107.13%"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "13.47%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "Jul 2024",
+          "period_type": "Quarterly",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "30040000000",
+              "change": "122.4%"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "3932000000",
+              "change": "47.71%"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "16599000000",
+              "change": "168.24%"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "55.26",
+              "change": "20.63%"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.68",
+              "change": "151.85%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "19075000000",
+              "change": "166.22%"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "13.61%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "Apr 2024",
+          "period_type": "Quarterly",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "26044000000",
+              "change": "262.12%"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "3497000000",
+              "change": "39.43%"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "14881000000",
+              "change": "628.39%"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "57.14",
+              "change": "101.13%"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.612",
+              "change": "461.47%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "17319000000",
+              "change": "586.17%"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "13.88%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "Jan 2024",
+          "period_type": "Quarterly",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "22103000000",
+              "change": "265.28%"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "3177000000",
+              "change": "23.28%"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "12285000000",
+              "change": "768.81%"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "55.58",
+              "change": "137.83%"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.516",
+              "change": "486.36%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "14001000000",
+              "change": "732.4%"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "12.91%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "Oct 2023",
+          "period_type": "Quarterly",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "18120000000",
+              "change": "205.51%"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "2983000000",
+              "change": "15.8%"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "9243000000",
+              "change": "1259.26%"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "51.01",
+              "change": "344.73%"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.402",
+              "change": "593.1%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "10789000000",
+              "change": "971.4%"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "12.16%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2024",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "60922000000",
+              "change": "125.85%"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "11329000000",
+              "change": "15.85%"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "29760000000",
+              "change": "581.32%"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "48.85",
+              "change": "201.73%"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "1.296",
+              "change": "288.02%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "34480000000",
+              "change": "384.2%"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "12%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2023",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "26974000000",
+              "change": "0.22%"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "9779000000",
+              "change": "31.54%"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "4368000000",
+              "change": "-55.21%"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "16.19",
+              "change": "-55.31%"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.334",
+              "change": "-24.77%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "7121000000",
+              "change": "-36.5%"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "-4.47%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2022",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "26914000000",
+              "change": "61.4%"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "7434000000",
+              "change": "27.38%"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "9752000000",
+              "change": "125.12%"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "36.23",
+              "change": "39.45%"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.444",
+              "change": "77.6%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "11215000000",
+              "change": "92.73%"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "1.9%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2021",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "16675000000",
+              "change": "52.73%"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "5836000000",
+              "change": "48.8%"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "4332000000",
+              "change": "54.94%"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "25.98",
+              "change": "1.44%"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.25",
+              "change": "72.71%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "5819000000",
+              "change": "80.32%"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "1.75%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2020",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "10918000000",
+              "change": "-6.81%"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "3922000000",
+              "change": "16.48%"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "2796000000",
+              "change": "-32.48%"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "25.61",
+              "change": "-27.53%"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.14475",
+              "change": "-12.8%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "3227000000",
+              "change": "-20.63%"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "5.86%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2019",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "11716000000",
+              "change": "20.61%"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "3367000000",
+              "change": "28.91%"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "4141000000",
+              "change": "35.9%"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "35.34",
+              "change": "12.66%"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.166",
+              "change": "34.96%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "4066000000",
+              "change": "19.27%"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "-6.29%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2018",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "9714000000",
+              "change": "40.58%"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "2612000000",
+              "change": "22.86%"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "3047000000",
+              "change": "82.89%"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "31.37",
+              "change": "30.11%"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.123",
+              "change": "60.78%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "3409000000",
+              "change": "60.5%"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "4.66%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2017",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "6910000000",
+              "change": "37.92%"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "2126000000",
+              "change": "9.98%"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "1666000000",
+              "change": "171.34%"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "24.11",
+              "change": "96.66%"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.0765",
+              "change": "83.23%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "2124000000",
+              "change": "97.58%"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "12.55%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2016",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "5010000000",
+              "change": "7.01%"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "1933000000",
+              "change": "5.05%"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "614000000",
+              "change": "-2.69%"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "12.26",
+              "change": "-9.05%"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.04175",
+              "change": "17.61%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "1075000000",
+              "change": "9.81%"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "17.36%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2015",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "4682000000",
+              "change": "—"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "1840000000",
+              "change": "—"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "631000000",
+              "change": "—"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "13.48",
+              "change": "—"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.0355",
+              "change": "43.43%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "979000000",
+              "change": "—"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "16.42%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2014",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.02475",
+              "change": "-15.38%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "—",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2013",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.02925",
+              "change": "-1.68%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "—",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2012",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.02975",
+              "change": "83.08%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "—",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2011",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.01625",
+              "change": "51.16%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "—",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2010",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.01075",
+              "change": "-18.87%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "—",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2009",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.01325",
+              "change": "-59.85%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "—",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2008",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.033",
+              "change": "80.03%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "—",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2007",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.01833",
+              "change": "33.31%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "—",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2006",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.01375",
+              "change": "189.47%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "—",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2005",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.00475",
+              "change": "13.91%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "—",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2004",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.00417",
+              "change": "-37.48%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "—",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2003",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.00667",
+              "change": "-29.19%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "—",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2002",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.00942",
+              "change": "79.43%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "—",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2001",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.00525",
+              "change": "137.56%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "—",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2000",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.00221",
+              "change": "569.7%"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "—",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "1999",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Revenue",
+              "description": "The total amount of income generated by the sale of goods or services related to the company's primary operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Operating expense",
+              "description": "Represents the total incurred expenses through normal operations",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Net profit margin",
+              "description": "Measures how much net income or profit is generated as a percentage of revenue.",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Earnings per share",
+              "description": "Represents the company's profit divided by the outstanding shares of its common stock.",
+              "value": "0.00033",
+              "change": "—"
+            },
+            {
+              "title": "EBITDA",
+              "description": "Earnings before interest, taxes, depreciation, and amortization, is a measure of a company's overall financial performance and is used as an alternative to net income in some circumstances",
+              "value": "—",
+              "change": "—"
+            },
+            {
+              "title": "Effective tax rate",
+              "description": "The percent of their income that a corporation pays in taxes",
+              "value": "—",
+              "change": "—"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Balance Sheet",
+      "results": [
+        {
+          "date": "Oct 2024",
+          "period_type": "Quarterly",
+          "table": [
+            {
+              "title": "Cash and short-term investments",
+              "description": "Investments that are relatively liquid and have maturities between 3 months and one year",
+              "value": "38487000000",
+              "change": "110.53%"
+            },
+            {
+              "title": "Total assets",
+              "description": "The total amount of assets owned by a company",
+              "value": "96013000000",
+              "change": "77.32%"
+            },
+            {
+              "title": "Total liabilities",
+              "description": "Sum of the combined debts a company owes",
+              "value": "30114000000",
+              "change": "44.2%"
+            },
+            {
+              "title": "Total equity",
+              "description": "The value of subtracting the total liabilities from the total assets of a company",
+              "value": "65899000000",
+              "change": "98.1%"
+            },
+            {
+              "title": "Shares outstanding",
+              "description": "Total number of common shares outstanding as of the latest date disclosed in a financial filing",
+              "value": "24490000000",
+              "change": "-0.85%"
+            },
+            {
+              "title": "Price to book",
+              "description": "A ratio used to determine if a company’s market value is in line with the value of its assets less liabilities and preferred stock",
+              "value": "52.76951672862453",
+              "change": "-49.81%"
+            },
+            {
+              "title": "Return on assets",
+              "description": "A financial ratio that shows a company’s profitability compared to its assets",
+              "value": "60.33%",
+              "change": "—"
+            },
+            {
+              "title": "Return on capital",
+              "description": "Company’s return above the average cost it pays for its debt and equity capital",
+              "value": "75.78%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "Jul 2024",
+          "period_type": "Quarterly",
+          "table": [
+            {
+              "title": "Cash and short-term investments",
+              "description": "Investments that are relatively liquid and have maturities between 3 months and one year",
+              "value": "34800000000",
+              "change": "117.19%"
+            },
+            {
+              "title": "Total assets",
+              "description": "The total amount of assets owned by a company",
+              "value": "85227000000",
+              "change": "71.98%"
+            },
+            {
+              "title": "Total liabilities",
+              "description": "Sum of the combined debts a company owes",
+              "value": "27070000000",
+              "change": "22.74%"
+            },
+            {
+              "title": "Total equity",
+              "description": "The value of subtracting the total liabilities from the total assets of a company",
+              "value": "58157000000",
+              "change": "111.47%"
+            },
+            {
+              "title": "Shares outstanding",
+              "description": "Total number of common shares outstanding as of the latest date disclosed in a financial filing",
+              "value": "24530000000",
+              "change": "-0.69%"
+            },
+            {
+              "title": "Price to book",
+              "description": "A ratio used to determine if a company’s market value is in line with the value of its assets less liabilities and preferred stock",
+              "value": "59.894514767932485",
+              "change": "-53.16%"
+            },
+            {
+              "title": "Return on assets",
+              "description": "A financial ratio that shows a company’s profitability compared to its assets",
+              "value": "57.43%",
+              "change": "—"
+            },
+            {
+              "title": "Return on capital",
+              "description": "Company’s return above the average cost it pays for its debt and equity capital",
+              "value": "72.51%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "Apr 2024",
+          "period_type": "Quarterly",
+          "table": [
+            {
+              "title": "Cash and short-term investments",
+              "description": "Investments that are relatively liquid and have maturities between 3 months and one year",
+              "value": "31438000000",
+              "change": "105.21%"
+            },
+            {
+              "title": "Total assets",
+              "description": "The total amount of assets owned by a company",
+              "value": "77072000000",
+              "change": "73.35%"
+            },
+            {
+              "title": "Total liabilities",
+              "description": "Sum of the combined debts a company owes",
+              "value": "27930000000",
+              "change": "40.07%"
+            },
+            {
+              "title": "Total equity",
+              "description": "The value of subtracting the total liabilities from the total assets of a company",
+              "value": "49142000000",
+              "change": "100.42%"
+            },
+            {
+              "title": "Shares outstanding",
+              "description": "Total number of common shares outstanding as of the latest date disclosed in a financial filing",
+              "value": "24600000000",
+              "change": "-0.4%"
+            },
+            {
+              "title": "Price to book",
+              "description": "A ratio used to determine if a company’s market value is in line with the value of its assets less liabilities and preferred stock",
+              "value": "70.975",
+              "change": "-50.5%"
+            },
+            {
+              "title": "Return on assets",
+              "description": "A financial ratio that shows a company’s profitability compared to its assets",
+              "value": "59.2%",
+              "change": "—"
+            },
+            {
+              "title": "Return on capital",
+              "description": "Company’s return above the average cost it pays for its debt and equity capital",
+              "value": "73.89%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "Jan 2024",
+          "period_type": "Quarterly",
+          "table": [
+            {
+              "title": "Cash and short-term investments",
+              "description": "Investments that are relatively liquid and have maturities between 3 months and one year",
+              "value": "25984000000",
+              "change": "95.43%"
+            },
+            {
+              "title": "Total assets",
+              "description": "The total amount of assets owned by a company",
+              "value": "65728000000",
+              "change": "59.6%"
+            },
+            {
+              "title": "Total liabilities",
+              "description": "Sum of the combined debts a company owes",
+              "value": "22750000000",
+              "change": "19.23%"
+            },
+            {
+              "title": "Total equity",
+              "description": "The value of subtracting the total liabilities from the total assets of a company",
+              "value": "42978000000",
+              "change": "94.46%"
+            },
+            {
+              "title": "Shares outstanding",
+              "description": "Total number of common shares outstanding as of the latest date disclosed in a financial filing",
+              "value": "25000000000",
+              "change": "1.21%"
+            },
+            {
+              "title": "Price to book",
+              "description": "A ratio used to determine if a company’s market value is in line with the value of its assets less liabilities and preferred stock",
+              "value": "81.58045977011494",
+              "change": "-48.28%"
+            },
+            {
+              "title": "Return on assets",
+              "description": "A financial ratio that shows a company’s profitability compared to its assets",
+              "value": "56.78%",
+              "change": "—"
+            },
+            {
+              "title": "Return on capital",
+              "description": "Company’s return above the average cost it pays for its debt and equity capital",
+              "value": "69.23%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "Oct 2023",
+          "period_type": "Quarterly",
+          "table": [
+            {
+              "title": "Cash and short-term investments",
+              "description": "Investments that are relatively liquid and have maturities between 3 months and one year",
+              "value": "18281000000",
+              "change": "39.09%"
+            },
+            {
+              "title": "Total assets",
+              "description": "The total amount of assets owned by a company",
+              "value": "54148000000",
+              "change": "33.74%"
+            },
+            {
+              "title": "Total liabilities",
+              "description": "Sum of the combined debts a company owes",
+              "value": "20883000000",
+              "change": "9.11%"
+            },
+            {
+              "title": "Total equity",
+              "description": "The value of subtracting the total liabilities from the total assets of a company",
+              "value": "33265000000",
+              "change": "55.82%"
+            },
+            {
+              "title": "Shares outstanding",
+              "description": "Total number of common shares outstanding as of the latest date disclosed in a financial filing",
+              "value": "24700000000",
+              "change": "0.41%"
+            },
+            {
+              "title": "Price to book",
+              "description": "A ratio used to determine if a company’s market value is in line with the value of its assets less liabilities and preferred stock",
+              "value": "105.14814814814814",
+              "change": "-35.56%"
+            },
+            {
+              "title": "Return on assets",
+              "description": "A financial ratio that shows a company’s profitability compared to its assets",
+              "value": "50.22%",
+              "change": "—"
+            },
+            {
+              "title": "Return on capital",
+              "description": "Company’s return above the average cost it pays for its debt and equity capital",
+              "value": "62.94%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2024",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Cash and short-term investments",
+              "description": "Investments that are relatively liquid and have maturities between 3 months and one year",
+              "value": "25984000000",
+              "change": "95.43%"
+            },
+            {
+              "title": "Total assets",
+              "description": "The total amount of assets owned by a company",
+              "value": "65728000000",
+              "change": "59.6%"
+            },
+            {
+              "title": "Total liabilities",
+              "description": "Sum of the combined debts a company owes",
+              "value": "22750000000",
+              "change": "19.23%"
+            },
+            {
+              "title": "Total equity",
+              "description": "The value of subtracting the total liabilities from the total assets of a company",
+              "value": "42978000000",
+              "change": "94.46%"
+            },
+            {
+              "title": "Shares outstanding",
+              "description": "Total number of common shares outstanding as of the latest date disclosed in a financial filing",
+              "value": "25000000000",
+              "change": "1.21%"
+            },
+            {
+              "title": "Price to book",
+              "description": "A ratio used to determine if a company’s market value is in line with the value of its assets less liabilities and preferred stock",
+              "value": "81.58045977011494",
+              "change": "-48.28%"
+            },
+            {
+              "title": "Return on assets",
+              "description": "A financial ratio that shows a company’s profitability compared to its assets",
+              "value": "38.55%",
+              "change": "—"
+            },
+            {
+              "title": "Return on capital",
+              "description": "Company’s return above the average cost it pays for its debt and equity capital",
+              "value": "46.75%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2023",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Cash and short-term investments",
+              "description": "Investments that are relatively liquid and have maturities between 3 months and one year",
+              "value": "13296000000",
+              "change": "-37.31%"
+            },
+            {
+              "title": "Total assets",
+              "description": "The total amount of assets owned by a company",
+              "value": "41182000000",
+              "change": "-6.8%"
+            },
+            {
+              "title": "Total liabilities",
+              "description": "Sum of the combined debts a company owes",
+              "value": "19081000000",
+              "change": "8.57%"
+            },
+            {
+              "title": "Total equity",
+              "description": "The value of subtracting the total liabilities from the total assets of a company",
+              "value": "22101000000",
+              "change": "-16.95%"
+            },
+            {
+              "title": "Shares outstanding",
+              "description": "Total number of common shares outstanding as of the latest date disclosed in a financial filing",
+              "value": "24700000000",
+              "change": "-1.44%"
+            },
+            {
+              "title": "Price to book",
+              "description": "A ratio used to determine if a company’s market value is in line with the value of its assets less liabilities and preferred stock",
+              "value": "157.7222222222222",
+              "change": "17.78%"
+            },
+            {
+              "title": "Return on assets",
+              "description": "A financial ratio that shows a company’s profitability compared to its assets",
+              "value": "8.17%",
+              "change": "—"
+            },
+            {
+              "title": "Return on capital",
+              "description": "Company’s return above the average cost it pays for its debt and equity capital",
+              "value": "9.61%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2022",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Cash and short-term investments",
+              "description": "Investments that are relatively liquid and have maturities between 3 months and one year",
+              "value": "21208000000",
+              "change": "83.44%"
+            },
+            {
+              "title": "Total assets",
+              "description": "The total amount of assets owned by a company",
+              "value": "44187000000",
+              "change": "53.48%"
+            },
+            {
+              "title": "Total liabilities",
+              "description": "Sum of the combined debts a company owes",
+              "value": "17575000000",
+              "change": "47.71%"
+            },
+            {
+              "title": "Total equity",
+              "description": "The value of subtracting the total liabilities from the total assets of a company",
+              "value": "26612000000",
+              "change": "57.53%"
+            },
+            {
+              "title": "Shares outstanding",
+              "description": "Total number of common shares outstanding as of the latest date disclosed in a financial filing",
+              "value": "25060000000",
+              "change": "1.05%"
+            },
+            {
+              "title": "Price to book",
+              "description": "A ratio used to determine if a company’s market value is in line with the value of its assets less liabilities and preferred stock",
+              "value": "133.9150943396226",
+              "change": "-35.85%"
+            },
+            {
+              "title": "Return on assets",
+              "description": "A financial ratio that shows a company’s profitability compared to its assets",
+              "value": "17.2%",
+              "change": "—"
+            },
+            {
+              "title": "Return on capital",
+              "description": "Company’s return above the average cost it pays for its debt and equity capital",
+              "value": "19.94%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2021",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Cash and short-term investments",
+              "description": "Investments that are relatively liquid and have maturities between 3 months and one year",
+              "value": "11561000000",
+              "change": "6.09%"
+            },
+            {
+              "title": "Total assets",
+              "description": "The total amount of assets owned by a company",
+              "value": "28791000000",
+              "change": "66.28%"
+            },
+            {
+              "title": "Total liabilities",
+              "description": "Sum of the combined debts a company owes",
+              "value": "11898000000",
+              "change": "132.79%"
+            },
+            {
+              "title": "Total equity",
+              "description": "The value of subtracting the total liabilities from the total assets of a company",
+              "value": "16893000000",
+              "change": "38.42%"
+            },
+            {
+              "title": "Shares outstanding",
+              "description": "Total number of common shares outstanding as of the latest date disclosed in a financial filing",
+              "value": "24800000000",
+              "change": "1.31%"
+            },
+            {
+              "title": "Price to book",
+              "description": "A ratio used to determine if a company’s market value is in line with the value of its assets less liabilities and preferred stock",
+              "value": "208.74999999999997",
+              "change": "-26.47%"
+            },
+            {
+              "title": "Return on assets",
+              "description": "A financial ratio that shows a company’s profitability compared to its assets",
+              "value": "12.8%",
+              "change": "—"
+            },
+            {
+              "title": "Return on capital",
+              "description": "Company’s return above the average cost it pays for its debt and equity capital",
+              "value": "15%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2020",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Cash and short-term investments",
+              "description": "Investments that are relatively liquid and have maturities between 3 months and one year",
+              "value": "10897000000",
+              "change": "46.82%"
+            },
+            {
+              "title": "Total assets",
+              "description": "The total amount of assets owned by a company",
+              "value": "17315000000",
+              "change": "30.27%"
+            },
+            {
+              "title": "Total liabilities",
+              "description": "Sum of the combined debts a company owes",
+              "value": "5111000000",
+              "change": "29.39%"
+            },
+            {
+              "title": "Total equity",
+              "description": "The value of subtracting the total liabilities from the total assets of a company",
+              "value": "12204000000",
+              "change": "30.64%"
+            },
+            {
+              "title": "Shares outstanding",
+              "description": "Total number of common shares outstanding as of the latest date disclosed in a financial filing",
+              "value": "24480000000",
+              "change": "0.99%"
+            },
+            {
+              "title": "Price to book",
+              "description": "A ratio used to determine if a company’s market value is in line with the value of its assets less liabilities and preferred stock",
+              "value": "283.9",
+              "change": "-22.0%"
+            },
+            {
+              "title": "Return on assets",
+              "description": "A financial ratio that shows a company’s profitability compared to its assets",
+              "value": "11.62%",
+              "change": "—"
+            },
+            {
+              "title": "Return on capital",
+              "description": "Company’s return above the average cost it pays for its debt and equity capital",
+              "value": "13.59%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2019",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Cash and short-term investments",
+              "description": "Investments that are relatively liquid and have maturities between 3 months and one year",
+              "value": "7422000000",
+              "change": "4.42%"
+            },
+            {
+              "title": "Total assets",
+              "description": "The total amount of assets owned by a company",
+              "value": "13292000000",
+              "change": "18.25%"
+            },
+            {
+              "title": "Total liabilities",
+              "description": "Sum of the combined debts a company owes",
+              "value": "3950000000",
+              "change": "4.77%"
+            },
+            {
+              "title": "Total equity",
+              "description": "The value of subtracting the total liabilities from the total assets of a company",
+              "value": "9342000000",
+              "change": "25.04%"
+            },
+            {
+              "title": "Shares outstanding",
+              "description": "Total number of common shares outstanding as of the latest date disclosed in a financial filing",
+              "value": "24240000000",
+              "change": "0.17%"
+            },
+            {
+              "title": "Price to book",
+              "description": "A ratio used to determine if a company’s market value is in line with the value of its assets less liabilities and preferred stock",
+              "value": "363.97435897435895",
+              "change": "-20.51%"
+            },
+            {
+              "title": "Return on assets",
+              "description": "A financial ratio that shows a company’s profitability compared to its assets",
+              "value": "19.38%",
+              "change": "—"
+            },
+            {
+              "title": "Return on capital",
+              "description": "Company’s return above the average cost it pays for its debt and equity capital",
+              "value": "22.86%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2018",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Cash and short-term investments",
+              "description": "Investments that are relatively liquid and have maturities between 3 months and one year",
+              "value": "7108000000",
+              "change": "4.56%"
+            },
+            {
+              "title": "Total assets",
+              "description": "The total amount of assets owned by a company",
+              "value": "11241000000",
+              "change": "14.23%"
+            },
+            {
+              "title": "Total liabilities",
+              "description": "Sum of the combined debts a company owes",
+              "value": "3770000000",
+              "change": "-7.58%"
+            },
+            {
+              "title": "Total equity",
+              "description": "The value of subtracting the total liabilities from the total assets of a company",
+              "value": "7471000000",
+              "change": "29.66%"
+            },
+            {
+              "title": "Shares outstanding",
+              "description": "Total number of common shares outstanding as of the latest date disclosed in a financial filing",
+              "value": "24200000000",
+              "change": "2.72%"
+            },
+            {
+              "title": "Price to book",
+              "description": "A ratio used to determine if a company’s market value is in line with the value of its assets less liabilities and preferred stock",
+              "value": "457.9032258064516",
+              "change": "-19.35%"
+            },
+            {
+              "title": "Return on assets",
+              "description": "A financial ratio that shows a company’s profitability compared to its assets",
+              "value": "19.03%",
+              "change": "—"
+            },
+            {
+              "title": "Return on capital",
+              "description": "Company’s return above the average cost it pays for its debt and equity capital",
+              "value": "22.27%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2017",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Cash and short-term investments",
+              "description": "Investments that are relatively liquid and have maturities between 3 months and one year",
+              "value": "6798000000",
+              "change": "34.96%"
+            },
+            {
+              "title": "Total assets",
+              "description": "The total amount of assets owned by a company",
+              "value": "9841000000",
+              "change": "33.53%"
+            },
+            {
+              "title": "Total liabilities",
+              "description": "Sum of the combined debts a company owes",
+              "value": "4079000000",
+              "change": "40.61%"
+            },
+            {
+              "title": "Total equity",
+              "description": "The value of subtracting the total liabilities from the total assets of a company",
+              "value": "5762000000",
+              "change": "28.93%"
+            },
+            {
+              "title": "Shares outstanding",
+              "description": "Total number of common shares outstanding as of the latest date disclosed in a financial filing",
+              "value": "23560000000",
+              "change": "8.67%"
+            },
+            {
+              "title": "Price to book",
+              "description": "A ratio used to determine if a company’s market value is in line with the value of its assets less liabilities and preferred stock",
+              "value": "567.8",
+              "change": "-16.0%"
+            },
+            {
+              "title": "Return on assets",
+              "description": "A financial ratio that shows a company’s profitability compared to its assets",
+              "value": "14.07%",
+              "change": "—"
+            },
+            {
+              "title": "Return on capital",
+              "description": "Company’s return above the average cost it pays for its debt and equity capital",
+              "value": "16.76%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2016",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Cash and short-term investments",
+              "description": "Investments that are relatively liquid and have maturities between 3 months and one year",
+              "value": "5037000000",
+              "change": "8.96%"
+            },
+            {
+              "title": "Total assets",
+              "description": "The total amount of assets owned by a company",
+              "value": "7370000000",
+              "change": "2.35%"
+            },
+            {
+              "title": "Total liabilities",
+              "description": "Sum of the combined debts a company owes",
+              "value": "2901000000",
+              "change": "4.24%"
+            },
+            {
+              "title": "Total equity",
+              "description": "The value of subtracting the total liabilities from the total assets of a company",
+              "value": "4469000000",
+              "change": "1.15%"
+            },
+            {
+              "title": "Shares outstanding",
+              "description": "Total number of common shares outstanding as of the latest date disclosed in a financial filing",
+              "value": "21680000000",
+              "change": "-1.43%"
+            },
+            {
+              "title": "Price to book",
+              "description": "A ratio used to determine if a company’s market value is in line with the value of its assets less liabilities and preferred stock",
+              "value": "675.952380952381",
+              "change": "-4.76%"
+            },
+            {
+              "title": "Return on assets",
+              "description": "A financial ratio that shows a company’s profitability compared to its assets",
+              "value": "7.53%",
+              "change": "—"
+            },
+            {
+              "title": "Return on capital",
+              "description": "Company’s return above the average cost it pays for its debt and equity capital",
+              "value": "9.37%",
+              "change": "—"
+            }
+          ]
+        },
+        {
+          "date": "2015",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Cash and short-term investments",
+              "description": "Investments that are relatively liquid and have maturities between 3 months and one year",
+              "value": "4623000000",
+              "change": "—"
+            },
+            {
+              "title": "Total assets",
+              "description": "The total amount of assets owned by a company",
+              "value": "7201000000",
+              "change": "—"
+            },
+            {
+              "title": "Total liabilities",
+              "description": "Sum of the combined debts a company owes",
+              "value": "2783000000",
+              "change": "—"
+            },
+            {
+              "title": "Total equity",
+              "description": "The value of subtracting the total liabilities from the total assets of a company",
+              "value": "4418000000",
+              "change": "—"
+            },
+            {
+              "title": "Shares outstanding",
+              "description": "Total number of common shares outstanding as of the latest date disclosed in a financial filing",
+              "value": "21993608440",
+              "change": "—"
+            },
+            {
+              "title": "Price to book",
+              "description": "A ratio used to determine if a company’s market value is in line with the value of its assets less liabilities and preferred stock",
+              "value": "709.7499999999999",
+              "change": "—"
+            },
+            {
+              "title": "Return on assets",
+              "description": "A financial ratio that shows a company’s profitability compared to its assets",
+              "value": "6.56%",
+              "change": "—"
+            },
+            {
+              "title": "Return on capital",
+              "description": "Company’s return above the average cost it pays for its debt and equity capital",
+              "value": "8.15%",
+              "change": "—"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Cash Flow",
+      "results": [
+        {
+          "date": "Oct 2024",
+          "period_type": "Quarterly",
+          "table": [
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "19309000000",
+              "change": "108.9%"
+            },
+            {
+              "title": "Cash from operations",
+              "description": "Net cash used or generated for core business activities",
+              "value": "17627000000",
+              "change": "140.41%"
+            },
+            {
+              "title": "Cash from investing",
+              "description": "Net cash used or generated in investing activities such as purchasing assets",
+              "value": "-4346000000",
+              "change": "-37.1%"
+            },
+            {
+              "title": "Cash from financing",
+              "description": "Net cash used or generated in financing activities such as dividend payments and loans",
+              "value": "-12745000000",
+              "change": "-181.66%"
+            },
+            {
+              "title": "Net change in cash",
+              "description": "The amount by which a company's cash balance increases or decreases in an accounting period",
+              "value": "536000000",
+              "change": "247.66%"
+            },
+            {
+              "title": "Free cash flow",
+              "description": "Amount of cash a business has after it has met its financial obligations such as debt and outstanding payments",
+              "value": "12714000000",
+              "change": "171.3%"
+            }
+          ]
+        },
+        {
+          "date": "Jul 2024",
+          "period_type": "Quarterly",
+          "table": [
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "16599000000",
+              "change": "168.24%"
+            },
+            {
+              "title": "Cash from operations",
+              "description": "Net cash used or generated for core business activities",
+              "value": "14488000000",
+              "change": "128.23%"
+            },
+            {
+              "title": "Cash from investing",
+              "description": "Net cash used or generated in investing activities such as purchasing assets",
+              "value": "-3184000000",
+              "change": "-613.9%"
+            },
+            {
+              "title": "Cash from financing",
+              "description": "Net cash used or generated in financing activities such as dividend payments and loans",
+              "value": "-10320000000",
+              "change": "-102.39%"
+            },
+            {
+              "title": "Net change in cash",
+              "description": "The amount by which a company's cash balance increases or decreases in an accounting period",
+              "value": "984000000",
+              "change": "22.54%"
+            },
+            {
+              "title": "Free cash flow",
+              "description": "Amount of cash a business has after it has met its financial obligations such as debt and outstanding payments",
+              "value": "9673125000",
+              "change": "94.62%"
+            }
+          ]
+        },
+        {
+          "date": "Apr 2024",
+          "period_type": "Quarterly",
+          "table": [
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "14881000000",
+              "change": "628.39%"
+            },
+            {
+              "title": "Cash from operations",
+              "description": "Net cash used or generated for core business activities",
+              "value": "15345000000",
+              "change": "427.14%"
+            },
+            {
+              "title": "Cash from investing",
+              "description": "Net cash used or generated in investing activities such as purchasing assets",
+              "value": "-5693000000",
+              "change": "-576.93%"
+            },
+            {
+              "title": "Cash from financing",
+              "description": "Net cash used or generated in financing activities such as dividend payments and loans",
+              "value": "-9345000000",
+              "change": "-2359.21%"
+            },
+            {
+              "title": "Net change in cash",
+              "description": "The amount by which a company's cash balance increases or decreases in an accounting period",
+              "value": "307000000",
+              "change": "-81.83%"
+            },
+            {
+              "title": "Free cash flow",
+              "description": "Amount of cash a business has after it has met its financial obligations such as debt and outstanding payments",
+              "value": "12224125000",
+              "change": "298.54%"
+            }
+          ]
+        },
+        {
+          "date": "Jan 2024",
+          "period_type": "Quarterly",
+          "table": [
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "12285000000",
+              "change": "768.81%"
+            },
+            {
+              "title": "Cash from operations",
+              "description": "Net cash used or generated for core business activities",
+              "value": "11499000000",
+              "change": "411.52%"
+            },
+            {
+              "title": "Cash from investing",
+              "description": "Net cash used or generated in investing activities such as purchasing assets",
+              "value": "-6109000000",
+              "change": "-203533.33%"
+            },
+            {
+              "title": "Cash from financing",
+              "description": "Net cash used or generated in financing activities such as dividend payments and loans",
+              "value": "-3629000000",
+              "change": "-119.14%"
+            },
+            {
+              "title": "Net change in cash",
+              "description": "The amount by which a company's cash balance increases or decreases in an accounting period",
+              "value": "1761000000",
+              "change": "198.98%"
+            },
+            {
+              "title": "Free cash flow",
+              "description": "Amount of cash a business has after it has met its financial obligations such as debt and outstanding payments",
+              "value": "7143375000",
+              "change": "413.54%"
+            }
+          ]
+        },
+        {
+          "date": "Oct 2023",
+          "period_type": "Quarterly",
+          "table": [
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "9243000000",
+              "change": "1259.26%"
+            },
+            {
+              "title": "Cash from operations",
+              "description": "Net cash used or generated for core business activities",
+              "value": "7332000000",
+              "change": "1770.41%"
+            },
+            {
+              "title": "Cash from investing",
+              "description": "Net cash used or generated in investing activities such as purchasing assets",
+              "value": "-3170000000",
+              "change": "-200.7%"
+            },
+            {
+              "title": "Cash from financing",
+              "description": "Net cash used or generated in financing activities such as dividend payments and loans",
+              "value": "-4525000000",
+              "change": "-20.57%"
+            },
+            {
+              "title": "Net change in cash",
+              "description": "The amount by which a company's cash balance increases or decreases in an accounting period",
+              "value": "-363000000",
+              "change": "-70.42%"
+            },
+            {
+              "title": "Free cash flow",
+              "description": "Amount of cash a business has after it has met its financial obligations such as debt and outstanding payments",
+              "value": "4686250000",
+              "change": "787.55%"
+            }
+          ]
+        },
+        {
+          "date": "2024",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "29760000000",
+              "change": "581.32%"
+            },
+            {
+              "title": "Cash from operations",
+              "description": "Net cash used or generated for core business activities",
+              "value": "28090000000",
+              "change": "397.96%"
+            },
+            {
+              "title": "Cash from investing",
+              "description": "Net cash used or generated in investing activities such as purchasing assets",
+              "value": "-10566000000",
+              "change": "-243.27%"
+            },
+            {
+              "title": "Cash from financing",
+              "description": "Net cash used or generated in financing activities such as dividend payments and loans",
+              "value": "-13633000000",
+              "change": "-17.35%"
+            },
+            {
+              "title": "Net change in cash",
+              "description": "The amount by which a company's cash balance increases or decreases in an accounting period",
+              "value": "3891000000",
+              "change": "178.13%"
+            },
+            {
+              "title": "Free cash flow",
+              "description": "Amount of cash a business has after it has met its financial obligations such as debt and outstanding payments",
+              "value": "19866875000",
+              "change": "338.28%"
+            }
+          ]
+        },
+        {
+          "date": "2023",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "4368000000",
+              "change": "-55.21%"
+            },
+            {
+              "title": "Cash from operations",
+              "description": "Net cash used or generated for core business activities",
+              "value": "5641000000",
+              "change": "-38.07%"
+            },
+            {
+              "title": "Cash from investing",
+              "description": "Net cash used or generated in investing activities such as purchasing assets",
+              "value": "7375000000",
+              "change": "175.03%"
+            },
+            {
+              "title": "Cash from financing",
+              "description": "Net cash used or generated in financing activities such as dividend payments and loans",
+              "value": "-11617000000",
+              "change": "-722.9%"
+            },
+            {
+              "title": "Net change in cash",
+              "description": "The amount by which a company's cash balance increases or decreases in an accounting period",
+              "value": "1399000000",
+              "change": "22.4%"
+            },
+            {
+              "title": "Free cash flow",
+              "description": "Amount of cash a business has after it has met its financial obligations such as debt and outstanding payments",
+              "value": "4532875000",
+              "change": "-29.92%"
+            }
+          ]
+        },
+        {
+          "date": "2022",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "9752000000",
+              "change": "125.12%"
+            },
+            {
+              "title": "Cash from operations",
+              "description": "Net cash used or generated for core business activities",
+              "value": "9108000000",
+              "change": "56.44%"
+            },
+            {
+              "title": "Cash from investing",
+              "description": "Net cash used or generated in investing activities such as purchasing assets",
+              "value": "-9830000000",
+              "change": "50.04%"
+            },
+            {
+              "title": "Cash from financing",
+              "description": "Net cash used or generated in financing activities such as dividend payments and loans",
+              "value": "1865000000",
+              "change": "-50.97%"
+            },
+            {
+              "title": "Net change in cash",
+              "description": "The amount by which a company's cash balance increases or decreases in an accounting period",
+              "value": "1143000000",
+              "change": "111.37%"
+            },
+            {
+              "title": "Free cash flow",
+              "description": "Amount of cash a business has after it has met its financial obligations such as debt and outstanding payments",
+              "value": "6468125000",
+              "change": "73.19%"
+            }
+          ]
+        },
+        {
+          "date": "2021",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "4332000000",
+              "change": "54.94%"
+            },
+            {
+              "title": "Cash from operations",
+              "description": "Net cash used or generated for core business activities",
+              "value": "5822000000",
+              "change": "22.29%"
+            },
+            {
+              "title": "Cash from investing",
+              "description": "Net cash used or generated in investing activities such as purchasing assets",
+              "value": "-19675000000",
+              "change": "-420.18%"
+            },
+            {
+              "title": "Cash from financing",
+              "description": "Net cash used or generated in financing activities such as dividend payments and loans",
+              "value": "3804000000",
+              "change": "580.3%"
+            },
+            {
+              "title": "Net change in cash",
+              "description": "The amount by which a company's cash balance increases or decreases in an accounting period",
+              "value": "-10049000000",
+              "change": "-199.36%"
+            },
+            {
+              "title": "Free cash flow",
+              "description": "Amount of cash a business has after it has met its financial obligations such as debt and outstanding payments",
+              "value": "3734625000",
+              "change": "17.14%"
+            }
+          ]
+        },
+        {
+          "date": "2020",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "2796000000",
+              "change": "-32.48%"
+            },
+            {
+              "title": "Cash from operations",
+              "description": "Net cash used or generated for core business activities",
+              "value": "4761000000",
+              "change": "27.2%"
+            },
+            {
+              "title": "Cash from investing",
+              "description": "Net cash used or generated in investing activities such as purchasing assets",
+              "value": "6145000000",
+              "change": "249.99%"
+            },
+            {
+              "title": "Cash from financing",
+              "description": "Net cash used or generated in financing activities such as dividend payments and loans",
+              "value": "-792000000",
+              "change": "72.37%"
+            },
+            {
+              "title": "Net change in cash",
+              "description": "The amount by which a company's cash balance increases or decreases in an accounting period",
+              "value": "10114000000",
+              "change": "414.1%"
+            },
+            {
+              "title": "Free cash flow",
+              "description": "Amount of cash a business has after it has met its financial obligations such as debt and outstanding payments",
+              "value": "3188250000",
+              "change": "80.82%"
+            }
+          ]
+        },
+        {
+          "date": "2019",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "4141000000",
+              "change": "35.9%"
+            },
+            {
+              "title": "Cash from operations",
+              "description": "Net cash used or generated for core business activities",
+              "value": "3743000000",
+              "change": "6.88%"
+            },
+            {
+              "title": "Cash from investing",
+              "description": "Net cash used or generated in investing activities such as purchasing assets",
+              "value": "-4097000000",
+              "change": "-420.58%"
+            },
+            {
+              "title": "Cash from financing",
+              "description": "Net cash used or generated in financing activities such as dividend payments and loans",
+              "value": "-2866000000",
+              "change": "-12.66%"
+            },
+            {
+              "title": "Net change in cash",
+              "description": "The amount by which a company's cash balance increases or decreases in an accounting period",
+              "value": "-3220000000",
+              "change": "-244.01%"
+            },
+            {
+              "title": "Free cash flow",
+              "description": "Amount of cash a business has after it has met its financial obligations such as debt and outstanding payments",
+              "value": "1763250000",
+              "change": "3.35%"
+            }
+          ]
+        },
+        {
+          "date": "2018",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "3047000000",
+              "change": "82.89%"
+            },
+            {
+              "title": "Cash from operations",
+              "description": "Net cash used or generated for core business activities",
+              "value": "3502000000",
+              "change": "109.45%"
+            },
+            {
+              "title": "Cash from investing",
+              "description": "Net cash used or generated in investing activities such as purchasing assets",
+              "value": "1278000000",
+              "change": "261.16%"
+            },
+            {
+              "title": "Cash from financing",
+              "description": "Net cash used or generated in financing activities such as dividend payments and loans",
+              "value": "-2544000000",
+              "change": "-974.23%"
+            },
+            {
+              "title": "Net change in cash",
+              "description": "The amount by which a company's cash balance increases or decreases in an accounting period",
+              "value": "2236000000",
+              "change": "91.11%"
+            },
+            {
+              "title": "Free cash flow",
+              "description": "Amount of cash a business has after it has met its financial obligations such as debt and outstanding payments",
+              "value": "1706125000",
+              "change": "123.21%"
+            }
+          ]
+        },
+        {
+          "date": "2017",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "1666000000",
+              "change": "171.34%"
+            },
+            {
+              "title": "Cash from operations",
+              "description": "Net cash used or generated for core business activities",
+              "value": "1672000000",
+              "change": "42.3%"
+            },
+            {
+              "title": "Cash from investing",
+              "description": "Net cash used or generated in investing activities such as purchasing assets",
+              "value": "-793000000",
+              "change": "-98.25%"
+            },
+            {
+              "title": "Cash from financing",
+              "description": "Net cash used or generated in financing activities such as dividend payments and loans",
+              "value": "291000000",
+              "change": "143.05%"
+            },
+            {
+              "title": "Net change in cash",
+              "description": "The amount by which a company's cash balance increases or decreases in an accounting period",
+              "value": "1170000000",
+              "change": "1081.82%"
+            },
+            {
+              "title": "Free cash flow",
+              "description": "Amount of cash a business has after it has met its financial obligations such as debt and outstanding payments",
+              "value": "764375000",
+              "change": "-21.63%"
+            }
+          ]
+        },
+        {
+          "date": "2016",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "614000000",
+              "change": "-2.69%"
+            },
+            {
+              "title": "Cash from operations",
+              "description": "Net cash used or generated for core business activities",
+              "value": "1175000000",
+              "change": "29.69%"
+            },
+            {
+              "title": "Cash from investing",
+              "description": "Net cash used or generated in investing activities such as purchasing assets",
+              "value": "-400000000",
+              "change": "44.98%"
+            },
+            {
+              "title": "Cash from financing",
+              "description": "Net cash used or generated in financing activities such as dividend payments and loans",
+              "value": "-676000000",
+              "change": "18.94%"
+            },
+            {
+              "title": "Net change in cash",
+              "description": "The amount by which a company's cash balance increases or decreases in an accounting period",
+              "value": "99000000",
+              "change": "115.11%"
+            },
+            {
+              "title": "Free cash flow",
+              "description": "Amount of cash a business has after it has met its financial obligations such as debt and outstanding payments",
+              "value": "975375000",
+              "change": "79.62%"
+            }
+          ]
+        },
+        {
+          "date": "2015",
+          "period_type": "Annual",
+          "table": [
+            {
+              "title": "Net income",
+              "description": "Company’s earnings for a period net of operating costs, taxes, and interest",
+              "value": "631000000",
+              "change": "—"
+            },
+            {
+              "title": "Cash from operations",
+              "description": "Net cash used or generated for core business activities",
+              "value": "906000000",
+              "change": "—"
+            },
+            {
+              "title": "Cash from investing",
+              "description": "Net cash used or generated in investing activities such as purchasing assets",
+              "value": "-727000000",
+              "change": "—"
+            },
+            {
+              "title": "Cash from financing",
+              "description": "Net cash used or generated in financing activities such as dividend payments and loans",
+              "value": "-834000000",
+              "change": "—"
+            },
+            {
+              "title": "Net change in cash",
+              "description": "The amount by which a company's cash balance increases or decreases in an accounting period",
+              "value": "-655000000",
+              "change": "—"
+            },
+            {
+              "title": "Free cash flow",
+              "description": "Amount of cash a business has after it has met its financial obligations such as debt and outstanding payments",
+              "value": "543030000",
+              "change": "—"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "discover_more": [
+    {
+      "title": "You may be interested in",
+      "items": [
+        {
+          "stock": ".DJI:INDEXDJX",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=.DJI%3AINDEXDJX",
+          "link": "https://www.google.com/finance/quote/.DJI:INDEXDJX",
+          "name": "Dow Jones Industrial Average",
+          "price": "44,655.06",
+          "extracted_price": 44655.06,
+          "price_movement": {
+            "percentage": 0.81,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": ".INX:INDEXSP",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=.INX%3AINDEXSP",
+          "link": "https://www.google.com/finance/quote/.INX:INDEXSP",
+          "name": "S&P 500",
+          "price": "5,984.24",
+          "extracted_price": 5984.24,
+          "price_movement": {
+            "percentage": 0.25,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": "TSLA:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=TSLA%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/TSLA:NASDAQ",
+          "name": "Tesla Inc",
+          "price": "$350.45",
+          "extracted_price": 350.45,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 0.6,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "AAPL:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=AAPL%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/AAPL:NASDAQ",
+          "name": "Apple Inc",
+          "price": "$230.57",
+          "extracted_price": 230.57,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 0.3,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": "AMZN:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=AMZN%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/AMZN:NASDAQ",
+          "name": "Amazon.com Inc",
+          "price": "$200.73",
+          "extracted_price": 200.73,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 1.83,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": "BABA:NYSE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=BABA%3ANYSE",
+          "link": "https://www.google.com/finance/quote/BABA:NYSE",
+          "name": "Alibaba Group Holding Ltd - ADR",
+          "price": "$85.11",
+          "extracted_price": 85.11,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 2.31,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": "MSFT:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=MSFT%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/MSFT:NASDAQ",
+          "name": "Microsoft Corp",
+          "price": "$416.72",
+          "extracted_price": 416.72,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 0.068,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "F:NYSE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=F%3ANYSE",
+          "link": "https://www.google.com/finance/quote/F:NYSE",
+          "name": "Ford Motor Co",
+          "price": "$11.43",
+          "extracted_price": 11.43,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 2.19,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": "VIX:INDEXCBOE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=VIX%3AINDEXCBOE",
+          "link": "https://www.google.com/finance/quote/VIX:INDEXCBOE",
+          "name": "VIX",
+          "price": "15.16",
+          "extracted_price": 15.16,
+          "price_movement": {
+            "percentage": 0.52,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": ".IXIC:INDEXNASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=.IXIC%3AINDEXNASDAQ",
+          "link": "https://www.google.com/finance/quote/.IXIC:INDEXNASDAQ",
+          "name": "Nasdaq Composite",
+          "price": "19,050.79",
+          "extracted_price": 19050.79,
+          "price_movement": {
+            "percentage": 0.25,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": "NXST:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=NXST%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/NXST:NASDAQ",
+          "name": "Nexstar Media Group Inc",
+          "price": "$171.12",
+          "extracted_price": 171.12,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 0.81,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": "BA:NYSE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=BA%3ANYSE",
+          "link": "https://www.google.com/finance/quote/BA:NYSE",
+          "name": "Boeing Co",
+          "price": "$150.99",
+          "extracted_price": 150.99,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 1.15,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": "DIS:NYSE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=DIS%3ANYSE",
+          "link": "https://www.google.com/finance/quote/DIS:NYSE",
+          "name": "Walt Disney Co",
+          "price": "$115.49",
+          "extracted_price": 115.49,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 0.11,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "SPY:NYSEARCA",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=SPY%3ANYSEARCA",
+          "link": "https://www.google.com/finance/quote/SPY:NYSEARCA",
+          "name": "SPDR S&P 500 ETF Trust",
+          "price": "$597.33",
+          "extracted_price": 597.33,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 0.31,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": "NFLX:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=NFLX%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/NFLX:NASDAQ",
+          "name": "Netflix Inc",
+          "price": "$870.35",
+          "extracted_price": 870.35,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 3.06,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "NVDA:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=NVDA%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/NVDA:NASDAQ",
+          "name": "NVIDIA Corp",
+          "price": "$137.29",
+          "extracted_price": 137.29,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 3.28,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "UAL:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=UAL%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/UAL:NASDAQ",
+          "name": "United Airlines Holdings Inc",
+          "price": "$96.77",
+          "extracted_price": 96.77,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 1.61,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": "PFE:NYSE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=PFE%3ANYSE",
+          "link": "https://www.google.com/finance/quote/PFE:NYSE",
+          "name": "Pfizer Inc",
+          "price": "$25.96",
+          "extracted_price": 25.96,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 1.25,
+            "movement": "Up"
+          }
+        }
+      ]
+    },
+    {
+      "title": "People also search for",
+      "items": [
+        {
+          "stock": "AAPL:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=AAPL%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/AAPL:NASDAQ",
+          "name": "Apple Inc",
+          "price": "$230.57",
+          "extracted_price": 230.57,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 0.3,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": "MSFT:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=MSFT%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/MSFT:NASDAQ",
+          "name": "Microsoft Corp",
+          "price": "$416.72",
+          "extracted_price": 416.72,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 0.068,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "TSLA:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=TSLA%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/TSLA:NASDAQ",
+          "name": "Tesla Inc",
+          "price": "$350.45",
+          "extracted_price": 350.45,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 0.6,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "SPY:NYSEARCA",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=SPY%3ANYSEARCA",
+          "link": "https://www.google.com/finance/quote/SPY:NYSEARCA",
+          "name": "SPDR S&P 500 ETF Trust",
+          "price": "$597.33",
+          "extracted_price": 597.33,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 0.31,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": "AMZN:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=AMZN%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/AMZN:NASDAQ",
+          "name": "Amazon.com Inc",
+          "price": "$200.73",
+          "extracted_price": 200.73,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 1.83,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": "AVGO:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=AVGO%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/AVGO:NASDAQ",
+          "name": "Broadcom Inc",
+          "price": "$164.79",
+          "extracted_price": 164.79,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 0.34,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": "PLTR:NYSE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=PLTR%3ANYSE",
+          "link": "https://www.google.com/finance/quote/PLTR:NYSE",
+          "name": "Palantir Technologies Inc",
+          "price": "$64.84",
+          "extracted_price": 64.84,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 0.79,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": "SMCI:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=SMCI%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/SMCI:NASDAQ",
+          "name": "Super Micro Computer Inc",
+          "price": "$36.82",
+          "extracted_price": 36.82,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 11.07,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": "RKLB:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=RKLB%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/RKLB:NASDAQ",
+          "name": "Rocket Lab USA Inc",
+          "price": "$24.04",
+          "extracted_price": 24.04,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 3.34,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": "NFLX:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=NFLX%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/NFLX:NASDAQ",
+          "name": "Netflix Inc",
+          "price": "$870.35",
+          "extracted_price": 870.35,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 3.06,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "TLT:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=TLT%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/TLT:NASDAQ",
+          "name": "iShares 20+ Year Treasury Bond ETF",
+          "price": "$92.52",
+          "extracted_price": 92.52,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 2.35,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": "QQQ:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=QQQ%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/QQQ:NASDAQ",
+          "name": "Invesco QQQ Trust, Series 1",
+          "price": "$506.55",
+          "extracted_price": 506.55,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 0.15,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": "MU:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=MU%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/MU:NASDAQ",
+          "name": "Micron Technology Inc",
+          "price": "$105.12",
+          "extracted_price": 105.12,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 2.42,
+            "movement": "Up"
+          }
+        },
+        {
+          "stock": "TSM:NYSE",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=TSM%3ANYSE",
+          "link": "https://www.google.com/finance/quote/TSM:NYSE",
+          "name": "Taiwan Semiconductor Mfg. Co. Ltd.",
+          "price": "$185.20",
+          "extracted_price": 185.2,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 2.5,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "LUNR:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=LUNR%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/LUNR:NASDAQ",
+          "name": "Intuitive Machines Inc",
+          "price": "$14.49",
+          "extracted_price": 14.49,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 4.17,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "SQQQ:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=SQQQ%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/SQQQ:NASDAQ",
+          "name": "ProShares UltraShort Russell2000 ETF",
+          "price": "$33.13",
+          "extracted_price": 33.13,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 0.44,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "DJT:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=DJT%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/DJT:NASDAQ",
+          "name": "Trump Media & Technology Group Corp",
+          "price": "$30.39",
+          "extracted_price": 30.39,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 1.25,
+            "movement": "Down"
+          }
+        },
+        {
+          "stock": "META:NASDAQ",
+          "serpapi_link": "https://serpapi.com/search.json?engine=google_finance&hl=en&q=META%3ANASDAQ",
+          "link": "https://www.google.com/finance/quote/META:NASDAQ",
+          "name": "Meta Platforms Inc",
+          "price": "$559.40",
+          "extracted_price": 559.4,
+          "currency": "$",
+          "price_movement": {
+            "percentage": 0.047,
+            "movement": "Up"
+          }
+        }
+      ]
+    }
+  ]
+}
