@@ -1,0 +1,900 @@
+<html>
+  <head>
+    <title>NVIDIA</title>
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+
+    <!-- Charts -->
+    <link
+      rel="stylesheet"
+      href="https://uicdn.toast.com/chart/latest/toastui-chart.min.css"
+    />
+    <script src="https://uicdn.toast.com/chart/latest/toastui-chart.min.js"></script>
+
+    <!-- Styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- High charts -->
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+    <style>
+      * {
+        font-family: Helvetica, Arial, sans-serif;
+      }
+
+      th {
+        font-weight: bold;
+        text-align: left;
+      }
+
+      td,
+      th {
+        padding: 5px;
+        border-bottom: 1px solid silver;
+        height: 20px;
+      }
+
+      tr:hover {
+        cursor: pointer;
+      }
+
+      .highcharts-tooltip > span {
+        background: white;
+        border: 1px solid silver;
+        border-radius: 3px;
+        box-shadow: 1px 1px 2px #888;
+        padding: 8px;
+      }
+
+      .highcharts-exporting-group {
+        display: none;
+      }
+
+      .highcharts-credits {
+        display: none;
+      }
+
+      #drilldown-container {
+        height: 220px;
+      }
+
+      #pie-chart {
+        height: 230px;
+      }
+
+      #container {
+        height: 290px;
+      }
+
+      tr:hover {
+        background-color: #e8f5f5;
+      }
+
+      tr {
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="p-2 h-screen bg-slate-100">
+      <div
+        id="metrics"
+        class="gap-3 md:p-3 md:mb-0 mb-3 grid md:grid-cols-4 grid-cols-1"
+      >
+        <div
+          id=""
+          class="flex flex-col px-5 py-3 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-md col-span-1 rounded-xl justify-start items-start"
+        >
+          <p class="text-sm text-gray-100">Stock Price</p>
+          <span id="price" class="text-xl mt-1 text-white"></span>
+        </div>
+        <div
+          id=""
+          class="flex flex-col px-5 py-3 bg-gradient-to-r from-teal-500 to-blue-500 drop-shadow-md col-span-1 rounded-xl justify-start items-start"
+        >
+          <p class="text-sm text-gray-100">Market Cap</p>
+          <span id="market_cap" class="text-xl mt-1 text-white"></span>
+        </div>
+        <div
+          id=""
+          class="flex flex-col px-5 py-3 bg-gradient-to-r from-pink-500 to-orange-500 drop-shadow-md col-span-1 rounded-xl justify-start items-start"
+        >
+          <p class="text-sm text-gray-100">Annual Revenue</p>
+          <span id="gg_revenue" class="text-xl mt-1 text-white"></span>
+        </div>
+        <div
+          id=""
+          class="flex flex-col px-5 py-3 bg-gradient-to-r from-emerald-400 to-violet-500 drop-shadow-md col-span-1 rounded-xl justify-start items-start"
+        >
+          <p class="text-sm text-gray-100">Annual Income</p>
+          <span id="gg_profit" class="text-xl mt-1 text-white"></span>
+        </div>
+      </div>
+
+      <div id="charts" class="">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 md:px-3">
+          <div
+            class="col-span-1 border border-slate-300 hover:border-blue-400 bg-white rounded-xl p-1 mb-3 drop-shadow"
+          >
+            <div class="flex justify-center items-center pt-2">
+              <p class="z-40">Competitors' Stock Prices</p>
+            </div>
+            <div id="line_chart" class="z-10 -mt-6"></div>
+          </div>
+          <div
+            class="col-span-1 border border-slate-300 hover:border-blue-400 bg-white rounded-xl p-1 mb-3 drop-shadow"
+          >
+            <div class="flex justify-center items-center pt-2">
+              <p class="z-40">Annual Net Income by Products</p>
+            </div>
+            <div id="bullet_chart" class="z-10 -mt-6"></div>
+          </div>
+        </div>
+      </div>
+
+      <div id="charts" class="">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 md:px-3">
+          <div
+            class="col-span-1 border border-slate-300 hover:border-blue-400 bg-white rounded-xl p-2 drop-shadow"
+          >
+            <div class="flex flex-col justify-center items-center py-2">
+              <p>Competitors' Analysis</p>
+              <p class="text-xs py-0.5">(Click to view more)</p>
+            </div>
+            <div
+              id="scrolling-container"
+              class="flex w-full md:px-3 px-1 overflow-x-auto"
+            >
+              <table id="table-sparkline" style="width: 100%">
+                <thead>
+                  <tr>
+                    <th>Company</th>
+                    <th>Annual Revenue</th>
+                    <th>Quarterly Revenue</th>
+                  </tr>
+                </thead>
+                <tbody id="tbody-sparkline">
+                  <tr id="nvda">
+                    <th>NVIDIA</th>
+                    <td>$26,974,000,000</td>
+                    <td data-sparkline="6052, 7192, 13507, 18120 " />
+                  </tr>
+                  <tr id="amd">
+                    <th>AMD</th>
+                    <td>$22,680,000,000</td>
+                    <td data-sparkline="5353, 5359, 5800, 6168 " />
+                  </tr>
+                  <tr id="intel">
+                    <th>Intel</th>
+                    <td>$54,228,000,000</td>
+                    <td data-sparkline="11715, 12949, 14158, 15406 " />
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+          <div
+            class="col-span-1 border border-slate-300 hover:border-blue-400 bg-white rounded-xl p-2 drop-shadow"
+          >
+            <div class="flex flex-col justify-center items-center py-2">
+              <p>
+                Net Income Report of <span id="drilldown-title">NVIDIA</span>
+              </p>
+              <p class="text-xs pt-0.5">(Click to view more)</p>
+            </div>
+            <div id="drilldown" class="">
+              <figure class="highcharts-figure">
+                <div id="drilldown-container" class=""></div>
+              </figure>
+            </div>
+          </div>
+
+          <div
+            class="col-span-1 border border-slate-300 hover:border-blue-400 bg-white rounded-xl p-1 drop-shadow"
+          >
+            <div class="flex flex-col justify-center items-center py-2">
+              <p>GPU Market Shares</p>
+              <p class="text-xs pt-0.5">(Click to view more)</p>
+            </div>
+            <div id="pie-chart" class=""></div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script>
+      function formatCompactNumber(number) {
+        const formatter = Intl.NumberFormat("en-US", {
+          maximumFractionDigits: 2,
+          notation: "standard", // standard vs compact
+          compactDisplay: "short",
+        });
+        return formatter.format(number);
+      }
+
+      $(document).ready(function () {
+        const intervalId = setInterval(() => {
+          const random = Math.round(Math.random() * 100);
+          $("#price").text(random.toString() + " USD");
+          const cap = formatCompactNumber(random * 24533000000);
+          $("#market_cap").text(cap.toString() + " USD");
+        }, 1500);
+
+        getData();
+
+        drawLineChart();
+        drawBulletChart();
+        drawSparkLines();
+        drawPieChart();
+        drawDrillDown("nvda");
+
+        $("#nvda").click(function () {
+          $("#drilldown-title").text("NVIDIA");
+          drawDrillDown("nvda");
+        });
+        $("#intel").click(function () {
+          $("#drilldown-title").text("Intel");
+          drawDrillDown("intel");
+        });
+        $("#amd").click(function () {
+          $("#drilldown-title").text("AMD");
+          drawDrillDown("amd");
+        });
+      });
+
+      const getData = async () => {
+        $.getJSON(
+          "http://raw.githubusercontent.com/duyenle1312/web-client-project/refs/heads/main/nvda.json",
+          function (data) {
+            // console.log(data["summary"]);
+            // console.log(data["markets"]["americas"])
+            // console.log(data["financials"]);
+            // console.log(data["graph"]);
+
+            $("#price").text(
+              "137.29 USD" // data["summary"]["price"]
+            );
+
+            $("#market_cap").text(
+              "3,370,000,000,000 USD" //data["knowledge_graph"]["key_stats"]["stats"][3]["value"] //"$3,370,000,000,000"//
+            );
+
+            const rev = formatCompactNumber(
+              data["financials"][0]["results"][5]["table"][0]["value"]
+            );
+            $("#gg_revenue").text(rev.toString() + " USD");
+
+            const profit = formatCompactNumber(
+              data["financials"][0]["results"][5]["table"][2]["value"]
+            );
+            $("#gg_profit").text(profit.toString() + " USD");
+          }
+        );
+      };
+
+      const drawDrillDown = (name) => {
+        let annual_income = [2.8, 4.33, 9.75, 4.37, 29.76];
+
+        let income_2024 = [12.29, 14.88, 16.6, 19.31]; // Q1, Q2, Q3, Q4
+        let income_2023 = [1.41, 2.04, 6.19, 9.24];
+        let income_2022 = [3.0, 1.62, 0.67, 0.68];
+        let income_2021 = [1.46, 1.91, 2.37, 2.47];
+        let income_2020 = [0.95, 0.92, 0.62, 1.34];
+
+        switch (name) {
+          case "nvda":
+            annual_income = [2.8, 4.33, 9.75, 4.37, 29.76]; // 2020 => 2024
+
+            income_2024 = [12.29, 14.88, 16.6, 19.31]; // Q1, Q2, Q3, Q4
+            income_2023 = [1.41, 2.04, 6.19, 9.24];
+            income_2022 = [3.0, 1.62, 0.67, 0.68];
+            income_2021 = [1.46, 1.91, 2.37, 2.47];
+            income_2020 = [0.95, 0.92, 0.62, 1.34];
+            break;
+
+          case "amd":
+            annual_income = [2.5, 3.2, 1.3, 0.85, 2.1];
+
+            income_2024 = [0.12, 0.27, 0.78, 1.1]; // Q1, Q2, Q3, Q4
+            income_2023 = [-0.14, 0.03, 0.3, 0.67];
+            income_2022 = [0.79, 0.45, 0.07, 0.02];
+            income_2021 = [0.56, 0.71, 0.92, 0.98];
+            income_2020 = [0.17, 0.16, 0.4, 1.8];
+            break;
+
+          case "intel":
+            annual_income = [20.9, 19.87, 8.0, 1.69, -18];
+
+            income_2024 = [-0.38, -1.61, -16.64, -0.88]; // Q1, Q2, Q3, Q4
+            income_2023 = [-2.76, 1.49, 0.3, 2.67];
+            income_2022 = [8.11, -0.45, 1.02, -0.66];
+            income_2021 = [3.36, 5.06, 6.82, 4.62];
+            income_2020 = [5.66, 5.11, 4.28, 5.86];
+            break;
+
+          default: // nvda
+            annual_income = [2.8, 4.33, 9.75, 4.37, 29.76];
+
+            income_2024 = [12.29, 14.88, 16.6, 19.31]; // Q1, Q2, Q3, Q4
+            income_2023 = [1.41, 2.04, 6.19, 9.24];
+            income_2022 = [3.0, 1.62, 0.67, 0.68];
+            income_2021 = [1.46, 1.91, 2.37, 2.47];
+            income_2020 = [0.95, 0.92, 0.62, 1.34];
+        }
+
+        Highcharts.chart(`drilldown-container`, {
+          chart: {
+            type: "bar",
+          },
+          title: {
+            align: "center",
+            text: "",
+          },
+          accessibility: {
+            announceNewData: {
+              enabled: true,
+            },
+          },
+          xAxis: {
+            // title: { text: "Year" },
+            type: "category",
+          },
+          yAxis: {
+            title: {
+              text: "Net Income in Billion USD",
+            },
+          },
+          legend: {
+            enabled: false,
+          },
+          plotOptions: {
+            series: {
+              borderWidth: 0,
+              dataLabels: {
+                // enabled: true,
+                format: "{point.y:.1f}B",
+              },
+            },
+          },
+
+          tooltip: {
+            headerFormat:
+              '<span style="font-size:11px">{series.name}</span><br>',
+            pointFormat:
+              '<span style="color:{point.color}">{point.name}</span>: ' +
+              "<b>{point.y:.2f}B USD</b> <br/>",
+          },
+
+          series: [
+            {
+              name: "Annually",
+              colorByPoint: true,
+              data: [
+                {
+                  name: "2024",
+                  y: annual_income[4],
+                  drilldown: "2024",
+                },
+                {
+                  name: "2023",
+                  y: annual_income[3],
+                  drilldown: "2023",
+                },
+
+                {
+                  name: "2022",
+                  y: annual_income[2],
+                  drilldown: "2022",
+                },
+                {
+                  name: "2021",
+                  y: annual_income[1],
+                  drilldown: "2021",
+                },
+                {
+                  name: "2020",
+                  y: annual_income[0],
+                  drilldown: "2020",
+                },
+              ],
+            },
+          ],
+          drilldown: {
+            breadcrumbs: {
+              position: {
+                align: "right",
+              },
+            },
+            series: [
+              {
+                name: "2024",
+                id: "2024",
+                data: [
+                  ["Q4 2024", income_2024[3]],
+                  ["Q3 2024", income_2024[2]],
+                  ["Q2 2024", income_2024[1]],
+                  ["Q1 2024", income_2024[0]],
+                ],
+              },
+              {
+                name: "2023",
+                id: "2023",
+                data: [
+                  ["Q4 2023", income_2023[3]],
+                  ["Q3 2023", income_2023[2]],
+                  ["Q2 2023", income_2023[1]],
+                  ["Q1 2023", income_2023[0]],
+                ],
+              },
+              {
+                name: "2022",
+                id: "2022",
+                data: [
+                  ["Q4 2022", income_2022[3]],
+                  ["Q3 2022", income_2022[2]],
+                  ["Q2 2022", income_2022[1]],
+                  ["Q1 2022", income_2022[0]],
+                ],
+              },
+              {
+                name: "2021",
+                id: "2021",
+                data: [
+                  ["Q4 2021", income_2021[3]],
+                  ["Q3 2021", income_2021[2]],
+                  ["Q2 2021", income_2021[1]],
+                  ["Q1 2021", income_2021[0]],
+                ],
+              },
+              {
+                name: "2020",
+                id: "2020",
+                data: [
+                  ["Q4 2020", income_2020[3]],
+                  ["Q3 2020", income_2020[2]],
+                  ["Q2 2020", income_2020[1]],
+                  ["Q1 2020", income_2020[0]],
+                ],
+              },
+            ],
+          },
+        });
+      };
+
+      const drawLineChart = () => {
+        const getTime = (t) => {
+          const time = new Date(t);
+          return time.toLocaleTimeString([], {
+            hour: "numeric",
+            minute: "numeric",
+            second: "numeric",
+          });
+        };
+        const el = document.getElementById("line_chart");
+
+        const currentTime = new Date();
+        const timeStamp = [
+          currentTime - 8000,
+          currentTime - 7000,
+          currentTime - 6000,
+          currentTime - 5000,
+          currentTime - 4000,
+          currentTime - 3000,
+          currentTime - 1000,
+          currentTime,
+        ];
+
+        const data = {
+          categories: [
+            getTime(timeStamp[0]),
+            getTime(timeStamp[1]),
+            getTime(timeStamp[2]),
+            getTime(timeStamp[3]),
+            getTime(timeStamp[4]),
+            getTime(timeStamp[5]),
+            getTime(timeStamp[6]),
+            getTime(timeStamp[7]),
+          ],
+          series: [
+            {
+              name: "NVIDIA",
+              data: [10, 100, 50, 40, 70, 55, 33, 70],
+            },
+            {
+              name: "AMD",
+              data: [100, 60, 90, 5, 12, 30, 60, 10],
+            },
+            {
+              name: "Intel",
+              data: [60, 40, 10, 33, 70, 90, 100, 17],
+            },
+          ],
+        };
+        const options = {
+          chart: {
+            title: {
+              text: "",
+              align: "center",
+            },
+            width: "50%",
+            height: 300,
+          },
+          xAxis: {
+            title: "Timestamp",
+          },
+          yAxis: {
+            title: "USD",
+          },
+          tooltip: {
+            formatter: (value) => `$${value}`,
+          },
+          legend: {
+            align: "bottom",
+          },
+          series: {
+            shift: true,
+          },
+        };
+
+        const chart = toastui.Chart.lineChart({ el, data, options });
+
+        let index = 9;
+        const intervalId = setInterval(() => {
+          const random = Math.round(Math.random() * 100);
+          const random2 = Math.round(Math.random() * 100);
+          const random3 = Math.round(Math.random() * 100);
+
+          var time = new Date().toLocaleTimeString([], {
+            // timeStyle: "long",
+            hour: "numeric",
+            minute: "numeric",
+            second: "numeric",
+          });
+
+          chart.addData([random, random2, random3], time.toString());
+          index += 1;
+        }, 1500);
+      };
+
+      const drawBulletChart = () => {
+        const el = document.getElementById("bullet_chart");
+        const data = {
+          series: [
+            {
+              name: "GPU",
+              data: 25,
+              markers: [28],
+              ranges: [
+                [0, 15],
+                [15, 21],
+                [21, 28],
+              ],
+            },
+            {
+              name: "Data Center",
+              data: 15,
+              markers: [20],
+              ranges: [
+                [0, 10],
+                [10, 19],
+                [19, 25],
+              ],
+            },
+            {
+              name: "Automotive",
+              data: 18,
+              markers: [21],
+              ranges: [
+                [0, 8],
+                [8, 15],
+                [15, 21],
+              ],
+            },
+            {
+              name: "AI & Robotics",
+              data: 15,
+              markers: [17],
+              ranges: [
+                [0, 8],
+                [8, 12],
+                [12, 18],
+              ],
+            },
+          ],
+        };
+
+        const options = {
+          chart: {
+            title: {
+              text: "",
+              align: "center",
+            },
+            width: "50%",
+            height: 300,
+          },
+          xAxis: {
+            title: "Million USD",
+          },
+          yAxis: {
+            title: "Product",
+          },
+          legend: {
+            visible: false,
+            align: "bottom",
+          },
+        };
+
+        const chart = toastui.Chart.bulletChart({ el, data, options });
+      };
+
+      const drawSparkLines = async () => {
+        Highcharts.SparkLine = function (a, b, c) {
+          const hasRenderToArg = typeof a === "string" || a.nodeName;
+          let options = arguments[hasRenderToArg ? 1 : 0];
+          const defaultOptions = {
+            chart: {
+              renderTo:
+                (options.chart && options.chart.renderTo) ||
+                (hasRenderToArg && a),
+              backgroundColor: null,
+              borderWidth: 0,
+              type: "area",
+              margin: [2, 0, 2, 0],
+              width: 120,
+              height: 20,
+              style: {
+                overflow: "visible",
+              },
+
+              skipClone: true,
+            },
+            title: {
+              text: "",
+            },
+            credits: {
+              enabled: false,
+            },
+            xAxis: {
+              labels: {
+                enabled: false,
+              },
+              title: {
+                text: null,
+              },
+              startOnTick: false,
+              endOnTick: false,
+              tickPositions: [],
+            },
+            yAxis: {
+              endOnTick: false,
+              startOnTick: false,
+              labels: {
+                enabled: false,
+              },
+              title: {
+                text: null,
+              },
+              tickPositions: [0],
+            },
+            legend: {
+              enabled: false,
+            },
+            tooltip: {
+              hideDelay: 0,
+              outside: true,
+              shared: true,
+            },
+            plotOptions: {
+              series: {
+                animation: false,
+                lineWidth: 1,
+                shadow: false,
+                states: {
+                  hover: {
+                    lineWidth: 1,
+                  },
+                },
+                marker: {
+                  radius: 1,
+                  states: {
+                    hover: {
+                      radius: 2,
+                    },
+                  },
+                },
+                fillOpacity: 0.25,
+              },
+              column: {
+                negativeColor: "#910000",
+                borderColor: "silver",
+              },
+            },
+          };
+
+          options = Highcharts.merge(defaultOptions, options);
+
+          return hasRenderToArg
+            ? new Highcharts.Chart(a, options, c)
+            : new Highcharts.Chart(options, b);
+        };
+
+        const start = +new Date(),
+          tds = Array.from(document.querySelectorAll("td[data-sparkline]")),
+          fullLen = tds.length;
+
+        let n = 0;
+
+        function doChunk() {
+          const time = +new Date(),
+            len = tds.length;
+
+          for (let i = 0; i < len; i += 1) {
+            const td = tds[i];
+            const stringdata = td.dataset.sparkline;
+            const arr = stringdata.split("; ");
+            const data = arr[0].split(", ").map(parseFloat);
+            const chart = {};
+
+            if (arr[1]) {
+              chart.type = arr[1];
+            }
+
+            Highcharts.SparkLine(td, {
+              series: [
+                {
+                  data: data,
+                  pointStart: 1,
+                },
+              ],
+              tooltip: {
+                headerFormat:
+                  '<span style="font-size: 10px">' +
+                  td.parentElement.querySelector("th").innerText +
+                  ", Q{point.x}:</span><br/>",
+                pointFormat: "<b>{point.y}.000</b> USD",
+              },
+              chart: chart,
+            });
+
+            n += 1;
+
+            if (new Date() - time > 500) {
+              tds.splice(0, i + 1);
+              setTimeout(doChunk, 0);
+              break;
+            }
+          }
+        }
+        doChunk();
+      };
+
+      const drawPieChart = () => {
+        Highcharts.chart("pie-chart", {
+          chart: {
+            type: "pie",
+          },
+          title: {
+            text: "",
+            align: "left",
+          },
+          accessibility: {
+            announceNewData: {
+              enabled: true,
+            },
+            point: {
+              valueSuffix: "%",
+            },
+          },
+
+          plotOptions: {
+            series: {
+              borderRadius: 5,
+              dataLabels: [
+                {
+                  enabled: true,
+                  distance: 15,
+                  format: "{point.name}",
+                },
+                {
+                  enabled: true,
+                  distance: "-30%",
+                  filter: {
+                    property: "percentage",
+                    operator: ">",
+                    value: 5,
+                  },
+                  format: "{point.y:.1f}%",
+                  style: {
+                    fontSize: "0.6em",
+                    textOutline: "none",
+                    color: "white",
+                  },
+                },
+              ],
+            },
+          },
+
+          tooltip: {
+            headerFormat:
+              '<span style="font-size:11px">{series.name}</span><br>',
+            pointFormat:
+              '<span style="color:{point.color}">{point.name}</span>: ' +
+              "<b>{point.y:.2f}%</b> of total<br/>",
+          },
+
+          series: [
+            {
+              name: "GPU",
+              colorByPoint: true,
+              data: [
+                {
+                  name: "NVIDIA",
+                  y: 87,
+                  drilldown: "NVIDIA",
+                },
+                {
+                  name: "AMD",
+                  y: 10,
+                  drilldown: "AMD",
+                },
+                {
+                  name: "Intel",
+                  y: 3,
+                  drilldown: "Intel",
+                },
+
+                // {
+                //   name: "Other",
+                //   y: 1,
+                //   drilldown: null,
+                // },
+              ],
+            },
+          ],
+          drilldown: {
+            series: [
+              {
+                name: "NVIDIA",
+                id: "NVIDIA",
+                data: [
+                  ["RTX 4090", 45.8],
+                  ["RTX 4080", 18.16],
+                  ["GTX 1080", 15.54],
+                  ["Titan V", 10.7],
+                  ["Quadro 400", 9.8],
+                ],
+              },
+              {
+                name: "AMD",
+                id: "AMD",
+                data: [
+                  ["Vega", 48],
+                  ["Navi 3x", 10],
+                  ["Evergreen", 14],
+                  ["RV670", 8],
+                ],
+              },
+              {
+                name: "Intel",
+                id: "Intel",
+                data: [
+                  ["i740", 60.62],
+                  ["i752", 29.23],
+                  ["GMA3150", 10.15],
+                ],
+              },
+            ],
+          },
+        });
+      };
+    </script>
+  </body>
+</html>
