@@ -82,36 +82,40 @@
       }
     </style>
   </head>
-  <body>
-    <main class="p-2 h-screen bg-slate-100">
+  <body class="bg-slate-100">
+    <main class="h-screen p-1">
       <div
         id="metrics"
-        class="gap-3 md:p-3 md:mb-0 mb-3 grid md:grid-cols-4 grid-cols-1"
+        class="gap-3 p-2 md:mb-0 mb-3 grid md:grid-cols-4 grid-cols-1"
       >
         <div
           id=""
-          class="flex flex-col px-5 py-3 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 drop-shadow-md col-span-1 rounded-xl justify-start items-start"
+          style="background-color: #544fc5"
+          class="flex flex-col px-5 py-3 drop-shadow-md col-span-1 rounded-xl justify-start items-start"
         >
           <p class="text-sm text-gray-100">Stock Price</p>
           <span id="price" class="text-xl mt-1 text-white"></span>
         </div>
         <div
           id=""
-          class="flex flex-col px-5 py-3 bg-gradient-to-r from-teal-500 to-blue-500 drop-shadow-md col-span-1 rounded-xl justify-start items-start"
+          style="background-color: #2caffe"
+          class="flex flex-col px-5 py-3 drop-shadow-md col-span-1 rounded-xl justify-start items-start"
         >
           <p class="text-sm text-gray-100">Market Cap</p>
           <span id="market_cap" class="text-xl mt-1 text-white"></span>
         </div>
         <div
           id=""
-          class="flex flex-col px-5 py-3 bg-gradient-to-r from-pink-500 to-orange-500 drop-shadow-md col-span-1 rounded-xl justify-start items-start"
+          style="background-color: #03bd9f"
+          class="flex flex-col px-5 py-3 drop-shadow-md col-span-1 rounded-xl justify-start items-start"
         >
           <p class="text-sm text-gray-100">Annual Revenue</p>
           <span id="gg_revenue" class="text-xl mt-1 text-white"></span>
         </div>
         <div
           id=""
-          class="flex flex-col px-5 py-3 bg-gradient-to-r from-emerald-400 to-violet-500 drop-shadow-md col-span-1 rounded-xl justify-start items-start"
+          style="background-color: #fe6a35"
+          class="flex flex-col px-5 py-3 drop-shadow-md col-span-1 rounded-xl justify-start items-start"
         >
           <p class="text-sm text-gray-100">Annual Income</p>
           <span id="gg_profit" class="text-xl mt-1 text-white"></span>
@@ -119,7 +123,7 @@
       </div>
 
       <div id="charts" class="">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 md:px-3">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3 px-2">
           <div
             class="col-span-1 border border-slate-300 hover:border-blue-400 bg-white rounded-xl p-1 mb-3 drop-shadow"
           >
@@ -140,7 +144,7 @@
       </div>
 
       <div id="charts" class="">
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 md:px-3">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-3 px-2 md:pb-0 pb-5">
           <div
             class="col-span-1 border border-slate-300 hover:border-blue-400 bg-white rounded-xl p-2 drop-shadow"
           >
@@ -152,7 +156,7 @@
               id="scrolling-container"
               class="flex w-full md:px-3 px-1 overflow-x-auto"
             >
-              <table id="table-sparkline" style="width: 100%">
+              <table id="table-sparkline" style="width: 100%" class="md:text-base text-xs">
                 <thead>
                   <tr>
                     <th>Company</th>
@@ -160,19 +164,19 @@
                     <th>Quarterly Revenue</th>
                   </tr>
                 </thead>
-                <tbody id="tbody-sparkline">
+                <tbody id="tbody-sparkline" >
                   <tr id="nvda">
-                    <th>NVIDIA</th>
+                    <th class="px-3">NVIDIA</th>
                     <td>$26,974,000,000</td>
                     <td data-sparkline="6052, 7192, 13507, 18120 " />
                   </tr>
                   <tr id="amd">
-                    <th>AMD</th>
+                    <th class="px-3">AMD</th>
                     <td>$22,680,000,000</td>
                     <td data-sparkline="5353, 5359, 5800, 6168 " />
                   </tr>
                   <tr id="intel">
-                    <th>Intel</th>
+                    <th class="px-3">Intel</th>
                     <td>$54,228,000,000</td>
                     <td data-sparkline="11715, 12949, 14158, 15406 " />
                   </tr>
@@ -235,18 +239,28 @@
         drawSparkLines();
         drawPieChart();
         drawDrillDown("nvda");
+        $("#nvda").css("background-color", "#e6f9fa");
 
         $("#nvda").click(function () {
           $("#drilldown-title").text("NVIDIA");
           drawDrillDown("nvda");
+          $(this).css("background-color", "#e6f9fa");
+          $("#amd").css("background-color", "transparent");
+          $("#intel").css("background-color", "transparent");
         });
         $("#intel").click(function () {
           $("#drilldown-title").text("Intel");
           drawDrillDown("intel");
+          $(this).css("background-color", "#e6f9fa");
+          $("#amd").css("background-color", "transparent");
+          $("#nvda").css("background-color", "transparent");
         });
         $("#amd").click(function () {
           $("#drilldown-title").text("AMD");
           drawDrillDown("amd");
+          $(this).css("background-color", "#e6f9fa");
+          $("#nvda").css("background-color", "transparent");
+          $("#intel").css("background-color", "transparent");
         });
       });
 
